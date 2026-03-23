@@ -1,0 +1,602 @@
+﻿[
+    {
+        "title":  "Fading Maze 1",
+        "author":  "Owen Klein",
+        "genre":  "fantasy",
+        "rating":  3.3
+    },
+    {
+        "title":  "Golden Voyage 2",
+        "author":  "Ava Sato",
+        "genre":  "science fiction",
+        "rating":  3.4
+    },
+    {
+        "title":  "Radiant Garden 3",
+        "author":  "Owen Bennett",
+        "genre":  "mystery",
+        "rating":  3.5
+    },
+    {
+        "title":  "Crimson Legacy 4",
+        "author":  "Ava Iqbal",
+        "genre":  "romance",
+        "rating":  3.6
+    },
+    {
+        "title":  "Shattered Archive 5",
+        "author":  "Owen Hart",
+        "genre":  "history",
+        "rating":  3.7
+    },
+    {
+        "title":  "Broken Protocol 6",
+        "author":  "Ava Klein",
+        "genre":  "self help",
+        "rating":  3.8
+    },
+    {
+        "title":  "Silent Signal 7",
+        "author":  "Owen Sato",
+        "genre":  "technology",
+        "rating":  3.9
+    },
+    {
+        "title":  "Electric Equation 8",
+        "author":  "Ava Bennett",
+        "genre":  "thriller",
+        "rating":  4
+    },
+    {
+        "title":  "Emerald Lantern 9",
+        "author":  "Owen Iqbal",
+        "genre":  "biography",
+        "rating":  4.1
+    },
+    {
+        "title":  "Hidden Empire 10",
+        "author":  "Ava Hart",
+        "genre":  "philosophy",
+        "rating":  4.2
+    },
+    {
+        "title":  "Fading Maze 11",
+        "author":  "Owen Klein",
+        "genre":  "fantasy",
+        "rating":  4.3
+    },
+    {
+        "title":  "Golden Voyage 12",
+        "author":  "Ava Sato",
+        "genre":  "science fiction",
+        "rating":  4.4
+    },
+    {
+        "title":  "Radiant Garden 13",
+        "author":  "Owen Bennett",
+        "genre":  "mystery",
+        "rating":  4.5
+    },
+    {
+        "title":  "Crimson Legacy 14",
+        "author":  "Ava Iqbal",
+        "genre":  "romance",
+        "rating":  4.6
+    },
+    {
+        "title":  "Shattered Archive 15",
+        "author":  "Owen Hart",
+        "genre":  "history",
+        "rating":  4.7
+    },
+    {
+        "title":  "Broken Protocol 16",
+        "author":  "Ava Klein",
+        "genre":  "self help",
+        "rating":  4.8
+    },
+    {
+        "title":  "Silent Signal 17",
+        "author":  "Owen Sato",
+        "genre":  "technology",
+        "rating":  4.9
+    },
+    {
+        "title":  "Electric Equation 18",
+        "author":  "Ava Bennett",
+        "genre":  "thriller",
+        "rating":  3.2
+    },
+    {
+        "title":  "Emerald Lantern 19",
+        "author":  "Owen Iqbal",
+        "genre":  "biography",
+        "rating":  3.3
+    },
+    {
+        "title":  "Hidden Empire 20",
+        "author":  "Ava Hart",
+        "genre":  "philosophy",
+        "rating":  3.4
+    },
+    {
+        "title":  "Fading Maze 21",
+        "author":  "Owen Klein",
+        "genre":  "fantasy",
+        "rating":  3.5
+    },
+    {
+        "title":  "Golden Voyage 22",
+        "author":  "Ava Sato",
+        "genre":  "science fiction",
+        "rating":  3.6
+    },
+    {
+        "title":  "Radiant Garden 23",
+        "author":  "Owen Bennett",
+        "genre":  "mystery",
+        "rating":  3.7
+    },
+    {
+        "title":  "Crimson Legacy 24",
+        "author":  "Ava Iqbal",
+        "genre":  "romance",
+        "rating":  3.8
+    },
+    {
+        "title":  "Shattered Archive 25",
+        "author":  "Owen Hart",
+        "genre":  "history",
+        "rating":  3.9
+    },
+    {
+        "title":  "Broken Protocol 26",
+        "author":  "Ava Klein",
+        "genre":  "self help",
+        "rating":  4
+    },
+    {
+        "title":  "Silent Signal 27",
+        "author":  "Owen Sato",
+        "genre":  "technology",
+        "rating":  4.1
+    },
+    {
+        "title":  "Electric Equation 28",
+        "author":  "Ava Bennett",
+        "genre":  "thriller",
+        "rating":  4.2
+    },
+    {
+        "title":  "Emerald Lantern 29",
+        "author":  "Owen Iqbal",
+        "genre":  "biography",
+        "rating":  4.3
+    },
+    {
+        "title":  "Hidden Empire 30",
+        "author":  "Ava Hart",
+        "genre":  "philosophy",
+        "rating":  4.4
+    },
+    {
+        "title":  "Fading Maze 31",
+        "author":  "Owen Klein",
+        "genre":  "fantasy",
+        "rating":  4.5
+    },
+    {
+        "title":  "Golden Voyage 32",
+        "author":  "Ava Sato",
+        "genre":  "science fiction",
+        "rating":  4.6
+    },
+    {
+        "title":  "Radiant Garden 33",
+        "author":  "Owen Bennett",
+        "genre":  "mystery",
+        "rating":  4.7
+    },
+    {
+        "title":  "Crimson Legacy 34",
+        "author":  "Ava Iqbal",
+        "genre":  "romance",
+        "rating":  4.8
+    },
+    {
+        "title":  "Shattered Archive 35",
+        "author":  "Owen Hart",
+        "genre":  "history",
+        "rating":  4.9
+    },
+    {
+        "title":  "Broken Protocol 36",
+        "author":  "Ava Klein",
+        "genre":  "self help",
+        "rating":  3.2
+    },
+    {
+        "title":  "Silent Signal 37",
+        "author":  "Owen Sato",
+        "genre":  "technology",
+        "rating":  3.3
+    },
+    {
+        "title":  "Electric Equation 38",
+        "author":  "Ava Bennett",
+        "genre":  "thriller",
+        "rating":  3.4
+    },
+    {
+        "title":  "Emerald Lantern 39",
+        "author":  "Owen Iqbal",
+        "genre":  "biography",
+        "rating":  3.5
+    },
+    {
+        "title":  "Hidden Empire 40",
+        "author":  "Ava Hart",
+        "genre":  "philosophy",
+        "rating":  3.6
+    },
+    {
+        "title":  "Fading Maze 41",
+        "author":  "Owen Klein",
+        "genre":  "fantasy",
+        "rating":  3.7
+    },
+    {
+        "title":  "Golden Voyage 42",
+        "author":  "Ava Sato",
+        "genre":  "science fiction",
+        "rating":  3.8
+    },
+    {
+        "title":  "Radiant Garden 43",
+        "author":  "Owen Bennett",
+        "genre":  "mystery",
+        "rating":  3.9
+    },
+    {
+        "title":  "Crimson Legacy 44",
+        "author":  "Ava Iqbal",
+        "genre":  "romance",
+        "rating":  4
+    },
+    {
+        "title":  "Shattered Archive 45",
+        "author":  "Owen Hart",
+        "genre":  "history",
+        "rating":  4.1
+    },
+    {
+        "title":  "Broken Protocol 46",
+        "author":  "Ava Klein",
+        "genre":  "self help",
+        "rating":  4.2
+    },
+    {
+        "title":  "Silent Signal 47",
+        "author":  "Owen Sato",
+        "genre":  "technology",
+        "rating":  4.3
+    },
+    {
+        "title":  "Electric Equation 48",
+        "author":  "Ava Bennett",
+        "genre":  "thriller",
+        "rating":  4.4
+    },
+    {
+        "title":  "Emerald Lantern 49",
+        "author":  "Owen Iqbal",
+        "genre":  "biography",
+        "rating":  4.5
+    },
+    {
+        "title":  "Hidden Empire 50",
+        "author":  "Ava Hart",
+        "genre":  "philosophy",
+        "rating":  4.6
+    },
+    {
+        "title":  "Fading Maze 51",
+        "author":  "Owen Klein",
+        "genre":  "fantasy",
+        "rating":  4.7
+    },
+    {
+        "title":  "Golden Voyage 52",
+        "author":  "Ava Sato",
+        "genre":  "science fiction",
+        "rating":  4.8
+    },
+    {
+        "title":  "Radiant Garden 53",
+        "author":  "Owen Bennett",
+        "genre":  "mystery",
+        "rating":  4.9
+    },
+    {
+        "title":  "Crimson Legacy 54",
+        "author":  "Ava Iqbal",
+        "genre":  "romance",
+        "rating":  3.2
+    },
+    {
+        "title":  "Shattered Archive 55",
+        "author":  "Owen Hart",
+        "genre":  "history",
+        "rating":  3.3
+    },
+    {
+        "title":  "Broken Protocol 56",
+        "author":  "Ava Klein",
+        "genre":  "self help",
+        "rating":  3.4
+    },
+    {
+        "title":  "Silent Signal 57",
+        "author":  "Owen Sato",
+        "genre":  "technology",
+        "rating":  3.5
+    },
+    {
+        "title":  "Electric Equation 58",
+        "author":  "Ava Bennett",
+        "genre":  "thriller",
+        "rating":  3.6
+    },
+    {
+        "title":  "Emerald Lantern 59",
+        "author":  "Owen Iqbal",
+        "genre":  "biography",
+        "rating":  3.7
+    },
+    {
+        "title":  "Hidden Empire 60",
+        "author":  "Ava Hart",
+        "genre":  "philosophy",
+        "rating":  3.8
+    },
+    {
+        "title":  "Fading Maze 61",
+        "author":  "Owen Klein",
+        "genre":  "fantasy",
+        "rating":  3.9
+    },
+    {
+        "title":  "Golden Voyage 62",
+        "author":  "Ava Sato",
+        "genre":  "science fiction",
+        "rating":  4
+    },
+    {
+        "title":  "Radiant Garden 63",
+        "author":  "Owen Bennett",
+        "genre":  "mystery",
+        "rating":  4.1
+    },
+    {
+        "title":  "Crimson Legacy 64",
+        "author":  "Ava Iqbal",
+        "genre":  "romance",
+        "rating":  4.2
+    },
+    {
+        "title":  "Shattered Archive 65",
+        "author":  "Owen Hart",
+        "genre":  "history",
+        "rating":  4.3
+    },
+    {
+        "title":  "Broken Protocol 66",
+        "author":  "Ava Klein",
+        "genre":  "self help",
+        "rating":  4.4
+    },
+    {
+        "title":  "Silent Signal 67",
+        "author":  "Owen Sato",
+        "genre":  "technology",
+        "rating":  4.5
+    },
+    {
+        "title":  "Electric Equation 68",
+        "author":  "Ava Bennett",
+        "genre":  "thriller",
+        "rating":  4.6
+    },
+    {
+        "title":  "Emerald Lantern 69",
+        "author":  "Owen Iqbal",
+        "genre":  "biography",
+        "rating":  4.7
+    },
+    {
+        "title":  "Hidden Empire 70",
+        "author":  "Ava Hart",
+        "genre":  "philosophy",
+        "rating":  4.8
+    },
+    {
+        "title":  "Fading Maze 71",
+        "author":  "Owen Klein",
+        "genre":  "fantasy",
+        "rating":  4.9
+    },
+    {
+        "title":  "Golden Voyage 72",
+        "author":  "Ava Sato",
+        "genre":  "science fiction",
+        "rating":  3.2
+    },
+    {
+        "title":  "Radiant Garden 73",
+        "author":  "Owen Bennett",
+        "genre":  "mystery",
+        "rating":  3.3
+    },
+    {
+        "title":  "Crimson Legacy 74",
+        "author":  "Ava Iqbal",
+        "genre":  "romance",
+        "rating":  3.4
+    },
+    {
+        "title":  "Shattered Archive 75",
+        "author":  "Owen Hart",
+        "genre":  "history",
+        "rating":  3.5
+    },
+    {
+        "title":  "Broken Protocol 76",
+        "author":  "Ava Klein",
+        "genre":  "self help",
+        "rating":  3.6
+    },
+    {
+        "title":  "Silent Signal 77",
+        "author":  "Owen Sato",
+        "genre":  "technology",
+        "rating":  3.7
+    },
+    {
+        "title":  "Electric Equation 78",
+        "author":  "Ava Bennett",
+        "genre":  "thriller",
+        "rating":  3.8
+    },
+    {
+        "title":  "Emerald Lantern 79",
+        "author":  "Owen Iqbal",
+        "genre":  "biography",
+        "rating":  3.9
+    },
+    {
+        "title":  "Hidden Empire 80",
+        "author":  "Ava Hart",
+        "genre":  "philosophy",
+        "rating":  4
+    },
+    {
+        "title":  "Fading Maze 81",
+        "author":  "Owen Klein",
+        "genre":  "fantasy",
+        "rating":  4.1
+    },
+    {
+        "title":  "Golden Voyage 82",
+        "author":  "Ava Sato",
+        "genre":  "science fiction",
+        "rating":  4.2
+    },
+    {
+        "title":  "Radiant Garden 83",
+        "author":  "Owen Bennett",
+        "genre":  "mystery",
+        "rating":  4.3
+    },
+    {
+        "title":  "Crimson Legacy 84",
+        "author":  "Ava Iqbal",
+        "genre":  "romance",
+        "rating":  4.4
+    },
+    {
+        "title":  "Shattered Archive 85",
+        "author":  "Owen Hart",
+        "genre":  "history",
+        "rating":  4.5
+    },
+    {
+        "title":  "Broken Protocol 86",
+        "author":  "Ava Klein",
+        "genre":  "self help",
+        "rating":  4.6
+    },
+    {
+        "title":  "Silent Signal 87",
+        "author":  "Owen Sato",
+        "genre":  "technology",
+        "rating":  4.7
+    },
+    {
+        "title":  "Electric Equation 88",
+        "author":  "Ava Bennett",
+        "genre":  "thriller",
+        "rating":  4.8
+    },
+    {
+        "title":  "Emerald Lantern 89",
+        "author":  "Owen Iqbal",
+        "genre":  "biography",
+        "rating":  4.9
+    },
+    {
+        "title":  "Hidden Empire 90",
+        "author":  "Ava Hart",
+        "genre":  "philosophy",
+        "rating":  3.2
+    },
+    {
+        "title":  "Fading Maze 91",
+        "author":  "Owen Klein",
+        "genre":  "fantasy",
+        "rating":  3.3
+    },
+    {
+        "title":  "Golden Voyage 92",
+        "author":  "Ava Sato",
+        "genre":  "science fiction",
+        "rating":  3.4
+    },
+    {
+        "title":  "Radiant Garden 93",
+        "author":  "Owen Bennett",
+        "genre":  "mystery",
+        "rating":  3.5
+    },
+    {
+        "title":  "Crimson Legacy 94",
+        "author":  "Ava Iqbal",
+        "genre":  "romance",
+        "rating":  3.6
+    },
+    {
+        "title":  "Shattered Archive 95",
+        "author":  "Owen Hart",
+        "genre":  "history",
+        "rating":  3.7
+    },
+    {
+        "title":  "Broken Protocol 96",
+        "author":  "Ava Klein",
+        "genre":  "self help",
+        "rating":  3.8
+    },
+    {
+        "title":  "Silent Signal 97",
+        "author":  "Owen Sato",
+        "genre":  "technology",
+        "rating":  3.9
+    },
+    {
+        "title":  "Electric Equation 98",
+        "author":  "Ava Bennett",
+        "genre":  "thriller",
+        "rating":  4
+    },
+    {
+        "title":  "Emerald Lantern 99",
+        "author":  "Owen Iqbal",
+        "genre":  "biography",
+        "rating":  4.1
+    },
+    {
+        "title":  "Hidden Empire 100",
+        "author":  "Ava Hart",
+        "genre":  "philosophy",
+        "rating":  4.2
+    }
+]

@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+
+# Node
+frontend/node_modules/
+frontend/dist/
+
+# Terraform
+terraform/.terraform/
+terraform/.terraform.lock.hcl
+terraform/tfplan
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Env
+.env
