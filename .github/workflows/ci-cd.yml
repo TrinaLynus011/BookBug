@@ -144,7 +144,7 @@ jobs:
   # base64-encoded kubeconfig of your remote cluster (NOT a local minikube config).
   #   Linux/macOS: base64 -w0 ~/.kube/config
   #   Windows:     [Convert]::ToBase64String([IO.File]::ReadAllBytes("$HOME\.kube\config"))
-    deploy:
+  deploy:
     name: Deploy — Kubernetes (Minikube in CI)
     runs-on: ubuntu-latest
     needs: docker
