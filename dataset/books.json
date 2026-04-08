@@ -1,602 +1,3002 @@
-﻿[
-    {
-        "title":  "Fading Maze 1",
-        "author":  "Owen Klein",
-        "genre":  "fantasy",
-        "rating":  3.3
-    },
-    {
-        "title":  "Golden Voyage 2",
-        "author":  "Ava Sato",
-        "genre":  "science fiction",
-        "rating":  3.4
-    },
-    {
-        "title":  "Radiant Garden 3",
-        "author":  "Owen Bennett",
-        "genre":  "mystery",
-        "rating":  3.5
-    },
-    {
-        "title":  "Crimson Legacy 4",
-        "author":  "Ava Iqbal",
-        "genre":  "romance",
-        "rating":  3.6
-    },
-    {
-        "title":  "Shattered Archive 5",
-        "author":  "Owen Hart",
-        "genre":  "history",
-        "rating":  3.7
-    },
-    {
-        "title":  "Broken Protocol 6",
-        "author":  "Ava Klein",
-        "genre":  "self help",
-        "rating":  3.8
-    },
-    {
-        "title":  "Silent Signal 7",
-        "author":  "Owen Sato",
-        "genre":  "technology",
-        "rating":  3.9
-    },
-    {
-        "title":  "Electric Equation 8",
-        "author":  "Ava Bennett",
-        "genre":  "thriller",
-        "rating":  4
-    },
-    {
-        "title":  "Emerald Lantern 9",
-        "author":  "Owen Iqbal",
-        "genre":  "biography",
-        "rating":  4.1
-    },
-    {
-        "title":  "Hidden Empire 10",
-        "author":  "Ava Hart",
-        "genre":  "philosophy",
-        "rating":  4.2
-    },
-    {
-        "title":  "Fading Maze 11",
-        "author":  "Owen Klein",
-        "genre":  "fantasy",
-        "rating":  4.3
-    },
-    {
-        "title":  "Golden Voyage 12",
-        "author":  "Ava Sato",
-        "genre":  "science fiction",
-        "rating":  4.4
-    },
-    {
-        "title":  "Radiant Garden 13",
-        "author":  "Owen Bennett",
-        "genre":  "mystery",
-        "rating":  4.5
-    },
-    {
-        "title":  "Crimson Legacy 14",
-        "author":  "Ava Iqbal",
-        "genre":  "romance",
-        "rating":  4.6
-    },
-    {
-        "title":  "Shattered Archive 15",
-        "author":  "Owen Hart",
-        "genre":  "history",
-        "rating":  4.7
-    },
-    {
-        "title":  "Broken Protocol 16",
-        "author":  "Ava Klein",
-        "genre":  "self help",
-        "rating":  4.8
-    },
-    {
-        "title":  "Silent Signal 17",
-        "author":  "Owen Sato",
-        "genre":  "technology",
-        "rating":  4.9
-    },
-    {
-        "title":  "Electric Equation 18",
-        "author":  "Ava Bennett",
-        "genre":  "thriller",
-        "rating":  3.2
-    },
-    {
-        "title":  "Emerald Lantern 19",
-        "author":  "Owen Iqbal",
-        "genre":  "biography",
-        "rating":  3.3
-    },
-    {
-        "title":  "Hidden Empire 20",
-        "author":  "Ava Hart",
-        "genre":  "philosophy",
-        "rating":  3.4
-    },
-    {
-        "title":  "Fading Maze 21",
-        "author":  "Owen Klein",
-        "genre":  "fantasy",
-        "rating":  3.5
-    },
-    {
-        "title":  "Golden Voyage 22",
-        "author":  "Ava Sato",
-        "genre":  "science fiction",
-        "rating":  3.6
-    },
-    {
-        "title":  "Radiant Garden 23",
-        "author":  "Owen Bennett",
-        "genre":  "mystery",
-        "rating":  3.7
-    },
-    {
-        "title":  "Crimson Legacy 24",
-        "author":  "Ava Iqbal",
-        "genre":  "romance",
-        "rating":  3.8
-    },
-    {
-        "title":  "Shattered Archive 25",
-        "author":  "Owen Hart",
-        "genre":  "history",
-        "rating":  3.9
-    },
-    {
-        "title":  "Broken Protocol 26",
-        "author":  "Ava Klein",
-        "genre":  "self help",
-        "rating":  4
-    },
-    {
-        "title":  "Silent Signal 27",
-        "author":  "Owen Sato",
-        "genre":  "technology",
-        "rating":  4.1
-    },
-    {
-        "title":  "Electric Equation 28",
-        "author":  "Ava Bennett",
-        "genre":  "thriller",
-        "rating":  4.2
-    },
-    {
-        "title":  "Emerald Lantern 29",
-        "author":  "Owen Iqbal",
-        "genre":  "biography",
-        "rating":  4.3
-    },
-    {
-        "title":  "Hidden Empire 30",
-        "author":  "Ava Hart",
-        "genre":  "philosophy",
-        "rating":  4.4
-    },
-    {
-        "title":  "Fading Maze 31",
-        "author":  "Owen Klein",
-        "genre":  "fantasy",
-        "rating":  4.5
-    },
-    {
-        "title":  "Golden Voyage 32",
-        "author":  "Ava Sato",
-        "genre":  "science fiction",
-        "rating":  4.6
-    },
-    {
-        "title":  "Radiant Garden 33",
-        "author":  "Owen Bennett",
-        "genre":  "mystery",
-        "rating":  4.7
-    },
-    {
-        "title":  "Crimson Legacy 34",
-        "author":  "Ava Iqbal",
-        "genre":  "romance",
-        "rating":  4.8
-    },
-    {
-        "title":  "Shattered Archive 35",
-        "author":  "Owen Hart",
-        "genre":  "history",
-        "rating":  4.9
-    },
-    {
-        "title":  "Broken Protocol 36",
-        "author":  "Ava Klein",
-        "genre":  "self help",
-        "rating":  3.2
-    },
-    {
-        "title":  "Silent Signal 37",
-        "author":  "Owen Sato",
-        "genre":  "technology",
-        "rating":  3.3
-    },
-    {
-        "title":  "Electric Equation 38",
-        "author":  "Ava Bennett",
-        "genre":  "thriller",
-        "rating":  3.4
-    },
-    {
-        "title":  "Emerald Lantern 39",
-        "author":  "Owen Iqbal",
-        "genre":  "biography",
-        "rating":  3.5
-    },
-    {
-        "title":  "Hidden Empire 40",
-        "author":  "Ava Hart",
-        "genre":  "philosophy",
-        "rating":  3.6
-    },
-    {
-        "title":  "Fading Maze 41",
-        "author":  "Owen Klein",
-        "genre":  "fantasy",
-        "rating":  3.7
-    },
-    {
-        "title":  "Golden Voyage 42",
-        "author":  "Ava Sato",
-        "genre":  "science fiction",
-        "rating":  3.8
-    },
-    {
-        "title":  "Radiant Garden 43",
-        "author":  "Owen Bennett",
-        "genre":  "mystery",
-        "rating":  3.9
-    },
-    {
-        "title":  "Crimson Legacy 44",
-        "author":  "Ava Iqbal",
-        "genre":  "romance",
-        "rating":  4
-    },
-    {
-        "title":  "Shattered Archive 45",
-        "author":  "Owen Hart",
-        "genre":  "history",
-        "rating":  4.1
-    },
-    {
-        "title":  "Broken Protocol 46",
-        "author":  "Ava Klein",
-        "genre":  "self help",
-        "rating":  4.2
-    },
-    {
-        "title":  "Silent Signal 47",
-        "author":  "Owen Sato",
-        "genre":  "technology",
-        "rating":  4.3
-    },
-    {
-        "title":  "Electric Equation 48",
-        "author":  "Ava Bennett",
-        "genre":  "thriller",
-        "rating":  4.4
-    },
-    {
-        "title":  "Emerald Lantern 49",
-        "author":  "Owen Iqbal",
-        "genre":  "biography",
-        "rating":  4.5
-    },
-    {
-        "title":  "Hidden Empire 50",
-        "author":  "Ava Hart",
-        "genre":  "philosophy",
-        "rating":  4.6
-    },
-    {
-        "title":  "Fading Maze 51",
-        "author":  "Owen Klein",
-        "genre":  "fantasy",
-        "rating":  4.7
-    },
-    {
-        "title":  "Golden Voyage 52",
-        "author":  "Ava Sato",
-        "genre":  "science fiction",
-        "rating":  4.8
-    },
-    {
-        "title":  "Radiant Garden 53",
-        "author":  "Owen Bennett",
-        "genre":  "mystery",
-        "rating":  4.9
-    },
-    {
-        "title":  "Crimson Legacy 54",
-        "author":  "Ava Iqbal",
-        "genre":  "romance",
-        "rating":  3.2
-    },
-    {
-        "title":  "Shattered Archive 55",
-        "author":  "Owen Hart",
-        "genre":  "history",
-        "rating":  3.3
-    },
-    {
-        "title":  "Broken Protocol 56",
-        "author":  "Ava Klein",
-        "genre":  "self help",
-        "rating":  3.4
-    },
-    {
-        "title":  "Silent Signal 57",
-        "author":  "Owen Sato",
-        "genre":  "technology",
-        "rating":  3.5
-    },
-    {
-        "title":  "Electric Equation 58",
-        "author":  "Ava Bennett",
-        "genre":  "thriller",
-        "rating":  3.6
-    },
-    {
-        "title":  "Emerald Lantern 59",
-        "author":  "Owen Iqbal",
-        "genre":  "biography",
-        "rating":  3.7
-    },
-    {
-        "title":  "Hidden Empire 60",
-        "author":  "Ava Hart",
-        "genre":  "philosophy",
-        "rating":  3.8
-    },
-    {
-        "title":  "Fading Maze 61",
-        "author":  "Owen Klein",
-        "genre":  "fantasy",
-        "rating":  3.9
-    },
-    {
-        "title":  "Golden Voyage 62",
-        "author":  "Ava Sato",
-        "genre":  "science fiction",
-        "rating":  4
-    },
-    {
-        "title":  "Radiant Garden 63",
-        "author":  "Owen Bennett",
-        "genre":  "mystery",
-        "rating":  4.1
-    },
-    {
-        "title":  "Crimson Legacy 64",
-        "author":  "Ava Iqbal",
-        "genre":  "romance",
-        "rating":  4.2
-    },
-    {
-        "title":  "Shattered Archive 65",
-        "author":  "Owen Hart",
-        "genre":  "history",
-        "rating":  4.3
-    },
-    {
-        "title":  "Broken Protocol 66",
-        "author":  "Ava Klein",
-        "genre":  "self help",
-        "rating":  4.4
-    },
-    {
-        "title":  "Silent Signal 67",
-        "author":  "Owen Sato",
-        "genre":  "technology",
-        "rating":  4.5
-    },
-    {
-        "title":  "Electric Equation 68",
-        "author":  "Ava Bennett",
-        "genre":  "thriller",
-        "rating":  4.6
-    },
-    {
-        "title":  "Emerald Lantern 69",
-        "author":  "Owen Iqbal",
-        "genre":  "biography",
-        "rating":  4.7
-    },
-    {
-        "title":  "Hidden Empire 70",
-        "author":  "Ava Hart",
-        "genre":  "philosophy",
-        "rating":  4.8
-    },
-    {
-        "title":  "Fading Maze 71",
-        "author":  "Owen Klein",
-        "genre":  "fantasy",
-        "rating":  4.9
-    },
-    {
-        "title":  "Golden Voyage 72",
-        "author":  "Ava Sato",
-        "genre":  "science fiction",
-        "rating":  3.2
-    },
-    {
-        "title":  "Radiant Garden 73",
-        "author":  "Owen Bennett",
-        "genre":  "mystery",
-        "rating":  3.3
-    },
-    {
-        "title":  "Crimson Legacy 74",
-        "author":  "Ava Iqbal",
-        "genre":  "romance",
-        "rating":  3.4
-    },
-    {
-        "title":  "Shattered Archive 75",
-        "author":  "Owen Hart",
-        "genre":  "history",
-        "rating":  3.5
-    },
-    {
-        "title":  "Broken Protocol 76",
-        "author":  "Ava Klein",
-        "genre":  "self help",
-        "rating":  3.6
-    },
-    {
-        "title":  "Silent Signal 77",
-        "author":  "Owen Sato",
-        "genre":  "technology",
-        "rating":  3.7
-    },
-    {
-        "title":  "Electric Equation 78",
-        "author":  "Ava Bennett",
-        "genre":  "thriller",
-        "rating":  3.8
-    },
-    {
-        "title":  "Emerald Lantern 79",
-        "author":  "Owen Iqbal",
-        "genre":  "biography",
-        "rating":  3.9
-    },
-    {
-        "title":  "Hidden Empire 80",
-        "author":  "Ava Hart",
-        "genre":  "philosophy",
-        "rating":  4
-    },
-    {
-        "title":  "Fading Maze 81",
-        "author":  "Owen Klein",
-        "genre":  "fantasy",
-        "rating":  4.1
-    },
-    {
-        "title":  "Golden Voyage 82",
-        "author":  "Ava Sato",
-        "genre":  "science fiction",
-        "rating":  4.2
-    },
-    {
-        "title":  "Radiant Garden 83",
-        "author":  "Owen Bennett",
-        "genre":  "mystery",
-        "rating":  4.3
-    },
-    {
-        "title":  "Crimson Legacy 84",
-        "author":  "Ava Iqbal",
-        "genre":  "romance",
-        "rating":  4.4
-    },
-    {
-        "title":  "Shattered Archive 85",
-        "author":  "Owen Hart",
-        "genre":  "history",
-        "rating":  4.5
-    },
-    {
-        "title":  "Broken Protocol 86",
-        "author":  "Ava Klein",
-        "genre":  "self help",
-        "rating":  4.6
-    },
-    {
-        "title":  "Silent Signal 87",
-        "author":  "Owen Sato",
-        "genre":  "technology",
-        "rating":  4.7
-    },
-    {
-        "title":  "Electric Equation 88",
-        "author":  "Ava Bennett",
-        "genre":  "thriller",
-        "rating":  4.8
-    },
-    {
-        "title":  "Emerald Lantern 89",
-        "author":  "Owen Iqbal",
-        "genre":  "biography",
-        "rating":  4.9
-    },
-    {
-        "title":  "Hidden Empire 90",
-        "author":  "Ava Hart",
-        "genre":  "philosophy",
-        "rating":  3.2
-    },
-    {
-        "title":  "Fading Maze 91",
-        "author":  "Owen Klein",
-        "genre":  "fantasy",
-        "rating":  3.3
-    },
-    {
-        "title":  "Golden Voyage 92",
-        "author":  "Ava Sato",
-        "genre":  "science fiction",
-        "rating":  3.4
-    },
-    {
-        "title":  "Radiant Garden 93",
-        "author":  "Owen Bennett",
-        "genre":  "mystery",
-        "rating":  3.5
-    },
-    {
-        "title":  "Crimson Legacy 94",
-        "author":  "Ava Iqbal",
-        "genre":  "romance",
-        "rating":  3.6
-    },
-    {
-        "title":  "Shattered Archive 95",
-        "author":  "Owen Hart",
-        "genre":  "history",
-        "rating":  3.7
-    },
-    {
-        "title":  "Broken Protocol 96",
-        "author":  "Ava Klein",
-        "genre":  "self help",
-        "rating":  3.8
-    },
-    {
-        "title":  "Silent Signal 97",
-        "author":  "Owen Sato",
-        "genre":  "technology",
-        "rating":  3.9
-    },
-    {
-        "title":  "Electric Equation 98",
-        "author":  "Ava Bennett",
-        "genre":  "thriller",
-        "rating":  4
-    },
-    {
-        "title":  "Emerald Lantern 99",
-        "author":  "Owen Iqbal",
-        "genre":  "biography",
-        "rating":  4.1
-    },
-    {
-        "title":  "Hidden Empire 100",
-        "author":  "Ava Hart",
-        "genre":  "philosophy",
-        "rating":  4.2
-    }
+[
+  {
+    "title": "Kingdom Star",
+    "author": "Amelia Coleman",
+    "genre": "science fiction",
+    "rating": 4.25
+  },
+  {
+    "title": "Dust Voyage",
+    "author": "Liam Butler",
+    "genre": "classic",
+    "rating": 3.72
+  },
+  {
+    "title": "Garden Light",
+    "author": "Evelyn Gray",
+    "genre": "education",
+    "rating": 3.82
+  },
+  {
+    "title": "Shadow Garden",
+    "author": "Isabella Morgan",
+    "genre": "education",
+    "rating": 4.13
+  },
+  {
+    "title": "Shadow Light",
+    "author": "Amelia Sanders",
+    "genre": "crime",
+    "rating": 4.85
+  },
+  {
+    "title": "Forest Voyage",
+    "author": "William Price",
+    "genre": "poetry",
+    "rating": 4.86
+  },
+  {
+    "title": "Puzzle Storm",
+    "author": "Harper Brooks",
+    "genre": "adventure",
+    "rating": 3.58
+  },
+  {
+    "title": "Dust Chronicle",
+    "author": "William Carter",
+    "genre": "drama",
+    "rating": 3.86
+  },
+  {
+    "title": "Mind Storm",
+    "author": "Lucas Parker",
+    "genre": "poetry",
+    "rating": 4.49
+  },
+  {
+    "title": "Star Memory",
+    "author": "Ava Ross",
+    "genre": "science",
+    "rating": 4.85
+  },
+  {
+    "title": "Star Storm",
+    "author": "Noah Butler",
+    "genre": "philosophy",
+    "rating": 4.62
+  },
+  {
+    "title": "Forest Whisper",
+    "author": "Liam Hughes",
+    "genre": "business",
+    "rating": 4.26
+  },
+  {
+    "title": "Quest Echo",
+    "author": "Henry Foster",
+    "genre": "business",
+    "rating": 4.61
+  },
+  {
+    "title": "Bridge Memory",
+    "author": "Mia Coleman",
+    "genre": "thriller",
+    "rating": 3.21
+  },
+  {
+    "title": "Echo Storm",
+    "author": "Amelia Carter",
+    "genre": "science",
+    "rating": 3.72
+  },
+  {
+    "title": "Dust Machine",
+    "author": "Henry Gray",
+    "genre": "philosophy",
+    "rating": 3.75
+  },
+  {
+    "title": "Code Voyage",
+    "author": "James Hayes",
+    "genre": "crime",
+    "rating": 4.15
+  },
+  {
+    "title": "Chronicle Whisper",
+    "author": "William Carter",
+    "genre": "music",
+    "rating": 3.84
+  },
+  {
+    "title": "Truth Path",
+    "author": "Michael Price",
+    "genre": "classic",
+    "rating": 4.23
+  },
+  {
+    "title": "Library Path",
+    "author": "Olivia Brooks",
+    "genre": "art",
+    "rating": 3.97
+  },
+  {
+    "title": "Path Kingdom",
+    "author": "William Sullivan",
+    "genre": "sports",
+    "rating": 4.54
+  },
+  {
+    "title": "Secret Empire",
+    "author": "Alexander Coleman",
+    "genre": "drama",
+    "rating": 4.66
+  },
+  {
+    "title": "Light Dream",
+    "author": "James Bennett",
+    "genre": "mystery",
+    "rating": 4.82
+  },
+  {
+    "title": "Echo Storm",
+    "author": "Evelyn Reed",
+    "genre": "thriller",
+    "rating": 4.21
+  },
+  {
+    "title": "Secret Dream",
+    "author": "Sophia Foster",
+    "genre": "technology",
+    "rating": 4.22
+  },
+  {
+    "title": "Chronicle Empire",
+    "author": "Daniel Powell",
+    "genre": "mystery",
+    "rating": 4.28
+  },
+  {
+    "title": "Memory Echo",
+    "author": "Amelia Reed",
+    "genre": "poetry",
+    "rating": 4.54
+  },
+  {
+    "title": "Kingdom Puzzle",
+    "author": "Henry Coleman",
+    "genre": "environment",
+    "rating": 4.66
+  },
+  {
+    "title": "Forest Path",
+    "author": "Isabella Ross",
+    "genre": "philosophy",
+    "rating": 4.18
+  },
+  {
+    "title": "Puzzle Puzzle",
+    "author": "Alexander Long",
+    "genre": "thriller",
+    "rating": 3.87
+  },
+  {
+    "title": "Empire Ocean",
+    "author": "Charlotte Hughes",
+    "genre": "biography",
+    "rating": 4.11
+  },
+  {
+    "title": "Dust Whisper",
+    "author": "James Sullivan",
+    "genre": "historical",
+    "rating": 3.28
+  },
+  {
+    "title": "Kingdom Journey",
+    "author": "James Parker",
+    "genre": "thriller",
+    "rating": 4.43
+  },
+  {
+    "title": "Library Garden",
+    "author": "Noah Coleman",
+    "genre": "horror",
+    "rating": 4.89
+  },
+  {
+    "title": "Path Whisper",
+    "author": "Michael Ross",
+    "genre": "education",
+    "rating": 3.95
+  },
+  {
+    "title": "Puzzle Dust",
+    "author": "Alexander Powell",
+    "genre": "environment",
+    "rating": 4.76
+  },
+  {
+    "title": "Path Dust",
+    "author": "Daniel Long",
+    "genre": "education",
+    "rating": 3.73
+  },
+  {
+    "title": "Whisper Star",
+    "author": "Ava Carter",
+    "genre": "young adult",
+    "rating": 3.39
+  },
+  {
+    "title": "Code Memory",
+    "author": "James Price",
+    "genre": "business",
+    "rating": 3.98
+  },
+  {
+    "title": "Shadow Code",
+    "author": "Isabella Fisher",
+    "genre": "music",
+    "rating": 3.91
+  },
+  {
+    "title": "Fire Voyage",
+    "author": "Emily Parker",
+    "genre": "philosophy",
+    "rating": 4.05
+  },
+  {
+    "title": "Shadow Shadow",
+    "author": "Ava Ward",
+    "genre": "romance",
+    "rating": 4.53
+  },
+  {
+    "title": "Dream Dust",
+    "author": "Liam Price",
+    "genre": "horror",
+    "rating": 4.55
+  },
+  {
+    "title": "Bridge Whisper",
+    "author": "Sophia Parker",
+    "genre": "crime",
+    "rating": 3.6
+  },
+  {
+    "title": "Quest Garden",
+    "author": "Amelia Carter",
+    "genre": "technology",
+    "rating": 3.31
+  },
+  {
+    "title": "Signal Forest",
+    "author": "Benjamin Hughes",
+    "genre": "philosophy",
+    "rating": 4.67
+  },
+  {
+    "title": "Voyage Signal",
+    "author": "Henry Sullivan",
+    "genre": "young adult",
+    "rating": 3.38
+  },
+  {
+    "title": "Signal Star",
+    "author": "Evelyn Fisher",
+    "genre": "young adult",
+    "rating": 4.25
+  },
+  {
+    "title": "Star Forest",
+    "author": "Ava Fisher",
+    "genre": "thriller",
+    "rating": 4.34
+  },
+  {
+    "title": "Legacy Dream",
+    "author": "Henry Coleman",
+    "genre": "education",
+    "rating": 3.63
+  },
+  {
+    "title": "Memory Code",
+    "author": "Ava Gray",
+    "genre": "self help",
+    "rating": 4.74
+  },
+  {
+    "title": "Echo Machine",
+    "author": "Olivia Sanders",
+    "genre": "young adult",
+    "rating": 3.49
+  },
+  {
+    "title": "Memory Library",
+    "author": "Olivia Foster",
+    "genre": "drama",
+    "rating": 3.48
+  },
+  {
+    "title": "Shadow Whisper",
+    "author": "Benjamin Gray",
+    "genre": "poetry",
+    "rating": 4.64
+  },
+  {
+    "title": "Storm Echo",
+    "author": "Isabella Ross",
+    "genre": "thriller",
+    "rating": 3.85
+  },
+  {
+    "title": "Light Light",
+    "author": "Mia Brooks",
+    "genre": "sports",
+    "rating": 3.87
+  },
+  {
+    "title": "Dream Signal",
+    "author": "Olivia Hayes",
+    "genre": "historical",
+    "rating": 3.75
+  },
+  {
+    "title": "Light Code",
+    "author": "Charlotte Sanders",
+    "genre": "crime",
+    "rating": 4.41
+  },
+  {
+    "title": "Puzzle Truth",
+    "author": "Daniel Powell",
+    "genre": "sports",
+    "rating": 4.01
+  },
+  {
+    "title": "Code Memory",
+    "author": "Daniel Ward",
+    "genre": "psychology",
+    "rating": 4.09
+  },
+  {
+    "title": "Library Kingdom",
+    "author": "Ava Price",
+    "genre": "self help",
+    "rating": 4.88
+  },
+  {
+    "title": "Path Truth",
+    "author": "Michael Bennett",
+    "genre": "environment",
+    "rating": 4.4
+  },
+  {
+    "title": "Forest Legacy",
+    "author": "Evelyn Fisher",
+    "genre": "sports",
+    "rating": 4.79
+  },
+  {
+    "title": "Whisper Voyage",
+    "author": "Charlotte Morgan",
+    "genre": "travel",
+    "rating": 4.73
+  },
+  {
+    "title": "Signal Journey",
+    "author": "Harper Hughes",
+    "genre": "business",
+    "rating": 3.96
+  },
+  {
+    "title": "Library Star",
+    "author": "Daniel Gray",
+    "genre": "business",
+    "rating": 4.88
+  },
+  {
+    "title": "Dream Echo",
+    "author": "Sophia Carter",
+    "genre": "philosophy",
+    "rating": 4.24
+  },
+  {
+    "title": "Garden Dust",
+    "author": "Amelia Hughes",
+    "genre": "sports",
+    "rating": 3.38
+  },
+  {
+    "title": "Mind Machine",
+    "author": "Noah Bennett",
+    "genre": "education",
+    "rating": 4.75
+  },
+  {
+    "title": "Chronicle Shadow",
+    "author": "Lucas Long",
+    "genre": "literature",
+    "rating": 3.98
+  },
+  {
+    "title": "Code Legacy",
+    "author": "Evelyn Hayes",
+    "genre": "historical",
+    "rating": 3.72
+  },
+  {
+    "title": "Storm Light",
+    "author": "William Price",
+    "genre": "art",
+    "rating": 3.47
+  },
+  {
+    "title": "Garden Truth",
+    "author": "Olivia Ward",
+    "genre": "self help",
+    "rating": 3.67
+  },
+  {
+    "title": "Forest Truth",
+    "author": "Alexander Reed",
+    "genre": "fantasy",
+    "rating": 4.05
+  },
+  {
+    "title": "Mind Truth",
+    "author": "Isabella Carter",
+    "genre": "science",
+    "rating": 4.59
+  },
+  {
+    "title": "Forest Garden",
+    "author": "Henry Parker",
+    "genre": "environment",
+    "rating": 3.98
+  },
+  {
+    "title": "Machine Whisper",
+    "author": "Isabella Gray",
+    "genre": "young adult",
+    "rating": 4.56
+  },
+  {
+    "title": "Shadow Bridge",
+    "author": "Amelia Ward",
+    "genre": "philosophy",
+    "rating": 4.44
+  },
+  {
+    "title": "Dream Journey",
+    "author": "Michael Fisher",
+    "genre": "science fiction",
+    "rating": 4.05
+  },
+  {
+    "title": "Journey Garden",
+    "author": "Henry Butler",
+    "genre": "art",
+    "rating": 4.0
+  },
+  {
+    "title": "Machine Mind",
+    "author": "Amelia Powell",
+    "genre": "business",
+    "rating": 3.3
+  },
+  {
+    "title": "Shadow Legacy",
+    "author": "Liam Powell",
+    "genre": "spirituality",
+    "rating": 4.79
+  },
+  {
+    "title": "Secret Legacy",
+    "author": "Benjamin Morgan",
+    "genre": "literature",
+    "rating": 3.98
+  },
+  {
+    "title": "Fire Light",
+    "author": "Henry Sanders",
+    "genre": "art",
+    "rating": 3.35
+  },
+  {
+    "title": "Echo Library",
+    "author": "Noah Sanders",
+    "genre": "music",
+    "rating": 4.35
+  },
+  {
+    "title": "Signal Whisper",
+    "author": "Daniel Foster",
+    "genre": "fantasy",
+    "rating": 4.43
+  },
+  {
+    "title": "Signal Dream",
+    "author": "Charlotte Parker",
+    "genre": "historical",
+    "rating": 3.98
+  },
+  {
+    "title": "Machine Quest",
+    "author": "Henry Long",
+    "genre": "travel",
+    "rating": 3.23
+  },
+  {
+    "title": "Whisper Mind",
+    "author": "Harper Foster",
+    "genre": "psychology",
+    "rating": 3.27
+  },
+  {
+    "title": "Chronicle Journey",
+    "author": "Mia Sanders",
+    "genre": "travel",
+    "rating": 4.22
+  },
+  {
+    "title": "Legacy Legacy",
+    "author": "Mia Reed",
+    "genre": "music",
+    "rating": 3.48
+  },
+  {
+    "title": "Dream Dust",
+    "author": "Lucas Sanders",
+    "genre": "science fiction",
+    "rating": 3.59
+  },
+  {
+    "title": "Quest Chronicle",
+    "author": "William Parker",
+    "genre": "science",
+    "rating": 3.64
+  },
+  {
+    "title": "Dream Legacy",
+    "author": "Olivia Price",
+    "genre": "environment",
+    "rating": 3.76
+  },
+  {
+    "title": "Truth Storm",
+    "author": "Alexander Bennett",
+    "genre": "horror",
+    "rating": 3.53
+  },
+  {
+    "title": "Dust Journey",
+    "author": "Liam Ward",
+    "genre": "adventure",
+    "rating": 3.21
+  },
+  {
+    "title": "Echo Memory",
+    "author": "Emily Fisher",
+    "genre": "politics",
+    "rating": 3.88
+  },
+  {
+    "title": "Legacy Kingdom",
+    "author": "Evelyn Parker",
+    "genre": "psychology",
+    "rating": 3.88
+  },
+  {
+    "title": "Truth Forest",
+    "author": "Emily Hughes",
+    "genre": "classic",
+    "rating": 3.38
+  },
+  {
+    "title": "Journey Path",
+    "author": "Emily Fisher",
+    "genre": "music",
+    "rating": 4.3
+  },
+  {
+    "title": "Signal Library",
+    "author": "Isabella Parker",
+    "genre": "mystery",
+    "rating": 3.66
+  },
+  {
+    "title": "Whisper Quest",
+    "author": "Sophia Butler",
+    "genre": "biography",
+    "rating": 4.0
+  },
+  {
+    "title": "Quest Dust",
+    "author": "Mia Reed",
+    "genre": "drama",
+    "rating": 4.36
+  },
+  {
+    "title": "Code Dust",
+    "author": "James Brooks",
+    "genre": "fantasy",
+    "rating": 3.49
+  },
+  {
+    "title": "Star Voyage",
+    "author": "Liam Carter",
+    "genre": "technology",
+    "rating": 3.38
+  },
+  {
+    "title": "Dream Dream",
+    "author": "Ava Butler",
+    "genre": "politics",
+    "rating": 3.62
+  },
+  {
+    "title": "Kingdom Dream",
+    "author": "William Ross",
+    "genre": "sports",
+    "rating": 3.56
+  },
+  {
+    "title": "Machine Empire",
+    "author": "Lucas Price",
+    "genre": "historical",
+    "rating": 3.82
+  },
+  {
+    "title": "Puzzle Star",
+    "author": "Emily Morgan",
+    "genre": "psychology",
+    "rating": 3.42
+  },
+  {
+    "title": "Storm Fire",
+    "author": "Lucas Ross",
+    "genre": "psychology",
+    "rating": 4.03
+  },
+  {
+    "title": "Memory Empire",
+    "author": "Amelia Brooks",
+    "genre": "mystery",
+    "rating": 3.68
+  },
+  {
+    "title": "Path Dream",
+    "author": "Benjamin Bennett",
+    "genre": "technology",
+    "rating": 4.54
+  },
+  {
+    "title": "Whisper Kingdom",
+    "author": "Lucas Morgan",
+    "genre": "fantasy",
+    "rating": 4.16
+  },
+  {
+    "title": "Dust Memory",
+    "author": "Emily Hughes",
+    "genre": "psychology",
+    "rating": 4.3
+  },
+  {
+    "title": "Dream Voyage",
+    "author": "Amelia Hughes",
+    "genre": "politics",
+    "rating": 4.02
+  },
+  {
+    "title": "Garden Star",
+    "author": "Olivia Parker",
+    "genre": "self help",
+    "rating": 3.55
+  },
+  {
+    "title": "Library Voyage",
+    "author": "Lucas Morgan",
+    "genre": "psychology",
+    "rating": 3.29
+  },
+  {
+    "title": "Truth Secret",
+    "author": "Daniel Sullivan",
+    "genre": "business",
+    "rating": 4.73
+  },
+  {
+    "title": "Path Star",
+    "author": "Henry Fisher",
+    "genre": "health",
+    "rating": 4.88
+  },
+  {
+    "title": "Shadow Path",
+    "author": "Charlotte Carter",
+    "genre": "politics",
+    "rating": 4.23
+  },
+  {
+    "title": "Fire Quest",
+    "author": "Alexander Parker",
+    "genre": "travel",
+    "rating": 3.85
+  },
+  {
+    "title": "Legacy Mind",
+    "author": "Henry Fisher",
+    "genre": "romance",
+    "rating": 3.63
+  },
+  {
+    "title": "Kingdom Quest",
+    "author": "Noah Carter",
+    "genre": "business",
+    "rating": 3.91
+  },
+  {
+    "title": "Storm Machine",
+    "author": "Harper Carter",
+    "genre": "mystery",
+    "rating": 3.4
+  },
+  {
+    "title": "Code Fire",
+    "author": "James Parker",
+    "genre": "technology",
+    "rating": 4.56
+  },
+  {
+    "title": "Dream Star",
+    "author": "Olivia Reed",
+    "genre": "business",
+    "rating": 4.02
+  },
+  {
+    "title": "Dust Code",
+    "author": "Sophia Long",
+    "genre": "poetry",
+    "rating": 4.32
+  },
+  {
+    "title": "Puzzle Quest",
+    "author": "Harper Hayes",
+    "genre": "psychology",
+    "rating": 4.11
+  },
+  {
+    "title": "Star Machine",
+    "author": "Noah Bennett",
+    "genre": "biography",
+    "rating": 3.49
+  },
+  {
+    "title": "Mind Library",
+    "author": "Benjamin Sullivan",
+    "genre": "science fiction",
+    "rating": 3.96
+  },
+  {
+    "title": "Whisper Whisper",
+    "author": "Isabella Ross",
+    "genre": "psychology",
+    "rating": 4.18
+  },
+  {
+    "title": "Journey Whisper",
+    "author": "Harper Sanders",
+    "genre": "classic",
+    "rating": 4.64
+  },
+  {
+    "title": "Echo Star",
+    "author": "Daniel Morgan",
+    "genre": "politics",
+    "rating": 3.49
+  },
+  {
+    "title": "Ocean Star",
+    "author": "Amelia Long",
+    "genre": "fantasy",
+    "rating": 4.89
+  },
+  {
+    "title": "Shadow Library",
+    "author": "Harper Hayes",
+    "genre": "art",
+    "rating": 3.23
+  },
+  {
+    "title": "Path Garden",
+    "author": "Evelyn Brooks",
+    "genre": "spirituality",
+    "rating": 4.1
+  },
+  {
+    "title": "Mind Bridge",
+    "author": "Harper Hughes",
+    "genre": "drama",
+    "rating": 4.87
+  },
+  {
+    "title": "Truth Mind",
+    "author": "Alexander Hughes",
+    "genre": "thriller",
+    "rating": 4.34
+  },
+  {
+    "title": "Forest Quest",
+    "author": "William Hughes",
+    "genre": "health",
+    "rating": 4.72
+  },
+  {
+    "title": "Dream Star",
+    "author": "Noah Fisher",
+    "genre": "business",
+    "rating": 4.89
+  },
+  {
+    "title": "Star Secret",
+    "author": "Harper Morgan",
+    "genre": "environment",
+    "rating": 4.67
+  },
+  {
+    "title": "Star Library",
+    "author": "Alexander Hughes",
+    "genre": "drama",
+    "rating": 4.04
+  },
+  {
+    "title": "Code Mind",
+    "author": "Charlotte Hughes",
+    "genre": "young adult",
+    "rating": 4.15
+  },
+  {
+    "title": "Journey Chronicle",
+    "author": "Alexander Bennett",
+    "genre": "sports",
+    "rating": 3.9
+  },
+  {
+    "title": "Secret Memory",
+    "author": "Evelyn Foster",
+    "genre": "biography",
+    "rating": 3.91
+  },
+  {
+    "title": "Secret Chronicle",
+    "author": "Lucas Long",
+    "genre": "psychology",
+    "rating": 3.67
+  },
+  {
+    "title": "Ocean Bridge",
+    "author": "Liam Brooks",
+    "genre": "philosophy",
+    "rating": 3.35
+  },
+  {
+    "title": "Library Mind",
+    "author": "Noah Gray",
+    "genre": "science",
+    "rating": 4.37
+  },
+  {
+    "title": "Signal Shadow",
+    "author": "Charlotte Long",
+    "genre": "adventure",
+    "rating": 4.89
+  },
+  {
+    "title": "Echo Quest",
+    "author": "Michael Coleman",
+    "genre": "science",
+    "rating": 3.69
+  },
+  {
+    "title": "Ocean Puzzle",
+    "author": "Benjamin Morgan",
+    "genre": "classic",
+    "rating": 4.25
+  },
+  {
+    "title": "Truth Echo",
+    "author": "Emily Ross",
+    "genre": "travel",
+    "rating": 3.68
+  },
+  {
+    "title": "Path Shadow",
+    "author": "Benjamin Hayes",
+    "genre": "adventure",
+    "rating": 4.86
+  },
+  {
+    "title": "Kingdom Dream",
+    "author": "Olivia Parker",
+    "genre": "drama",
+    "rating": 4.16
+  },
+  {
+    "title": "Mind Secret",
+    "author": "James Sullivan",
+    "genre": "poetry",
+    "rating": 4.81
+  },
+  {
+    "title": "Path Chronicle",
+    "author": "Liam Reed",
+    "genre": "art",
+    "rating": 3.99
+  },
+  {
+    "title": "Journey Dust",
+    "author": "Amelia Coleman",
+    "genre": "drama",
+    "rating": 3.34
+  },
+  {
+    "title": "Legacy Code",
+    "author": "Charlotte Powell",
+    "genre": "technology",
+    "rating": 3.88
+  },
+  {
+    "title": "Puzzle Light",
+    "author": "Amelia Parker",
+    "genre": "politics",
+    "rating": 4.61
+  },
+  {
+    "title": "Puzzle Memory",
+    "author": "Amelia Sullivan",
+    "genre": "environment",
+    "rating": 4.66
+  },
+  {
+    "title": "Memory Puzzle",
+    "author": "Amelia Bennett",
+    "genre": "young adult",
+    "rating": 4.24
+  },
+  {
+    "title": "Machine Mind",
+    "author": "Sophia Long",
+    "genre": "psychology",
+    "rating": 3.4
+  },
+  {
+    "title": "Storm Memory",
+    "author": "Liam Gray",
+    "genre": "philosophy",
+    "rating": 3.41
+  },
+  {
+    "title": "Secret Storm",
+    "author": "Henry Reed",
+    "genre": "education",
+    "rating": 4.83
+  },
+  {
+    "title": "Storm Journey",
+    "author": "Noah Gray",
+    "genre": "romance",
+    "rating": 4.67
+  },
+  {
+    "title": "Dream Storm",
+    "author": "Daniel Foster",
+    "genre": "biography",
+    "rating": 3.9
+  },
+  {
+    "title": "Star Quest",
+    "author": "Charlotte Reed",
+    "genre": "adventure",
+    "rating": 3.35
+  },
+  {
+    "title": "Library Code",
+    "author": "Benjamin Fisher",
+    "genre": "travel",
+    "rating": 3.38
+  },
+  {
+    "title": "Machine Mind",
+    "author": "Alexander Hayes",
+    "genre": "young adult",
+    "rating": 3.25
+  },
+  {
+    "title": "Empire Path",
+    "author": "Sophia Powell",
+    "genre": "psychology",
+    "rating": 4.04
+  },
+  {
+    "title": "Dust Library",
+    "author": "Emily Coleman",
+    "genre": "travel",
+    "rating": 3.97
+  },
+  {
+    "title": "Kingdom Signal",
+    "author": "Benjamin Carter",
+    "genre": "travel",
+    "rating": 4.38
+  },
+  {
+    "title": "Library Bridge",
+    "author": "Charlotte Parker",
+    "genre": "music",
+    "rating": 4.09
+  },
+  {
+    "title": "Star Secret",
+    "author": "Mia Parker",
+    "genre": "health",
+    "rating": 4.2
+  },
+  {
+    "title": "Shadow Forest",
+    "author": "Noah Reed",
+    "genre": "sports",
+    "rating": 3.99
+  },
+  {
+    "title": "Legacy Memory",
+    "author": "Noah Ward",
+    "genre": "technology",
+    "rating": 4.55
+  },
+  {
+    "title": "Memory Light",
+    "author": "Sophia Price",
+    "genre": "sports",
+    "rating": 4.4
+  },
+  {
+    "title": "Dream Empire",
+    "author": "Lucas Hughes",
+    "genre": "science",
+    "rating": 4.11
+  },
+  {
+    "title": "Mind Mind",
+    "author": "Sophia Bennett",
+    "genre": "science fiction",
+    "rating": 4.44
+  },
+  {
+    "title": "Star Journey",
+    "author": "Emily Fisher",
+    "genre": "politics",
+    "rating": 3.26
+  },
+  {
+    "title": "Echo Machine",
+    "author": "Emily Price",
+    "genre": "thriller",
+    "rating": 3.98
+  },
+  {
+    "title": "Quest Dust",
+    "author": "Emily Hayes",
+    "genre": "classic",
+    "rating": 3.81
+  },
+  {
+    "title": "Ocean Star",
+    "author": "Benjamin Fisher",
+    "genre": "adventure",
+    "rating": 3.71
+  },
+  {
+    "title": "Echo Code",
+    "author": "Olivia Price",
+    "genre": "horror",
+    "rating": 4.68
+  },
+  {
+    "title": "Legacy Library",
+    "author": "Mia Bennett",
+    "genre": "psychology",
+    "rating": 4.33
+  },
+  {
+    "title": "Whisper Code",
+    "author": "Mia Hughes",
+    "genre": "politics",
+    "rating": 4.87
+  },
+  {
+    "title": "Secret Garden",
+    "author": "Alexander Sullivan",
+    "genre": "crime",
+    "rating": 3.96
+  },
+  {
+    "title": "Legacy Dust",
+    "author": "Harper Hayes",
+    "genre": "health",
+    "rating": 4.02
+  },
+  {
+    "title": "Library Legacy",
+    "author": "Charlotte Sullivan",
+    "genre": "politics",
+    "rating": 3.47
+  },
+  {
+    "title": "Chronicle Puzzle",
+    "author": "William Gray",
+    "genre": "thriller",
+    "rating": 3.72
+  },
+  {
+    "title": "Storm Machine",
+    "author": "Mia Coleman",
+    "genre": "science fiction",
+    "rating": 3.74
+  },
+  {
+    "title": "Signal Chronicle",
+    "author": "Lucas Carter",
+    "genre": "education",
+    "rating": 4.72
+  },
+  {
+    "title": "Star Storm",
+    "author": "Alexander Sullivan",
+    "genre": "spirituality",
+    "rating": 4.25
+  },
+  {
+    "title": "Echo Shadow",
+    "author": "Benjamin Carter",
+    "genre": "self help",
+    "rating": 3.26
+  },
+  {
+    "title": "Bridge Puzzle",
+    "author": "Mia Sullivan",
+    "genre": "self help",
+    "rating": 4.6
+  },
+  {
+    "title": "Empire Fire",
+    "author": "Mia Ward",
+    "genre": "historical",
+    "rating": 3.44
+  },
+  {
+    "title": "Memory Forest",
+    "author": "Evelyn Fisher",
+    "genre": "music",
+    "rating": 4.34
+  },
+  {
+    "title": "Shadow Light",
+    "author": "Michael Coleman",
+    "genre": "classic",
+    "rating": 3.31
+  },
+  {
+    "title": "Star Shadow",
+    "author": "Benjamin Hayes",
+    "genre": "thriller",
+    "rating": 3.85
+  },
+  {
+    "title": "Shadow Memory",
+    "author": "Isabella Long",
+    "genre": "environment",
+    "rating": 4.11
+  },
+  {
+    "title": "Ocean Code",
+    "author": "Evelyn Sullivan",
+    "genre": "poetry",
+    "rating": 4.44
+  },
+  {
+    "title": "Code Bridge",
+    "author": "Harper Coleman",
+    "genre": "music",
+    "rating": 3.22
+  },
+  {
+    "title": "Garden Garden",
+    "author": "William Foster",
+    "genre": "science fiction",
+    "rating": 4.14
+  },
+  {
+    "title": "Light Quest",
+    "author": "William Powell",
+    "genre": "travel",
+    "rating": 4.88
+  },
+  {
+    "title": "Dream Mind",
+    "author": "Henry Fisher",
+    "genre": "fantasy",
+    "rating": 4.69
+  },
+  {
+    "title": "Kingdom Signal",
+    "author": "James Carter",
+    "genre": "education",
+    "rating": 4.12
+  },
+  {
+    "title": "Fire Shadow",
+    "author": "Michael Fisher",
+    "genre": "horror",
+    "rating": 3.42
+  },
+  {
+    "title": "Voyage Fire",
+    "author": "Amelia Long",
+    "genre": "horror",
+    "rating": 4.84
+  },
+  {
+    "title": "Ocean Light",
+    "author": "Emily Coleman",
+    "genre": "psychology",
+    "rating": 4.0
+  },
+  {
+    "title": "Bridge Empire",
+    "author": "Harper Butler",
+    "genre": "literature",
+    "rating": 4.74
+  },
+  {
+    "title": "Library Light",
+    "author": "Amelia Hughes",
+    "genre": "education",
+    "rating": 3.98
+  },
+  {
+    "title": "Dust Quest",
+    "author": "Ava Carter",
+    "genre": "poetry",
+    "rating": 3.67
+  },
+  {
+    "title": "Truth Star",
+    "author": "Michael Hayes",
+    "genre": "health",
+    "rating": 3.84
+  },
+  {
+    "title": "Storm Dust",
+    "author": "Emily Carter",
+    "genre": "crime",
+    "rating": 3.61
+  },
+  {
+    "title": "Empire Chronicle",
+    "author": "William Ross",
+    "genre": "historical",
+    "rating": 4.79
+  },
+  {
+    "title": "Storm Chronicle",
+    "author": "William Brooks",
+    "genre": "art",
+    "rating": 4.27
+  },
+  {
+    "title": "Fire Ocean",
+    "author": "Benjamin Ross",
+    "genre": "psychology",
+    "rating": 4.05
+  },
+  {
+    "title": "Machine Forest",
+    "author": "Michael Hughes",
+    "genre": "travel",
+    "rating": 4.06
+  },
+  {
+    "title": "Quest Dream",
+    "author": "Lucas Gray",
+    "genre": "mystery",
+    "rating": 4.86
+  },
+  {
+    "title": "Code Library",
+    "author": "Michael Powell",
+    "genre": "science fiction",
+    "rating": 3.92
+  },
+  {
+    "title": "Library Shadow",
+    "author": "Alexander Brooks",
+    "genre": "travel",
+    "rating": 4.11
+  },
+  {
+    "title": "Dust Legacy",
+    "author": "James Sanders",
+    "genre": "spirituality",
+    "rating": 3.92
+  },
+  {
+    "title": "Journey Light",
+    "author": "Charlotte Morgan",
+    "genre": "environment",
+    "rating": 3.59
+  },
+  {
+    "title": "Signal Truth",
+    "author": "Sophia Price",
+    "genre": "technology",
+    "rating": 3.25
+  },
+  {
+    "title": "Journey Machine",
+    "author": "Charlotte Morgan",
+    "genre": "historical",
+    "rating": 4.02
+  },
+  {
+    "title": "Journey Ocean",
+    "author": "Henry Brooks",
+    "genre": "travel",
+    "rating": 4.36
+  },
+  {
+    "title": "Code Library",
+    "author": "Benjamin Hayes",
+    "genre": "education",
+    "rating": 4.22
+  },
+  {
+    "title": "Memory Garden",
+    "author": "William Gray",
+    "genre": "environment",
+    "rating": 4.32
+  },
+  {
+    "title": "Storm Dust",
+    "author": "Henry Hughes",
+    "genre": "crime",
+    "rating": 4.78
+  },
+  {
+    "title": "Dust Garden",
+    "author": "Noah Hughes",
+    "genre": "politics",
+    "rating": 4.44
+  },
+  {
+    "title": "Chronicle Code",
+    "author": "Henry Price",
+    "genre": "philosophy",
+    "rating": 3.28
+  },
+  {
+    "title": "Whisper Kingdom",
+    "author": "Amelia Ward",
+    "genre": "spirituality",
+    "rating": 4.2
+  },
+  {
+    "title": "Machine Mind",
+    "author": "Daniel Gray",
+    "genre": "romance",
+    "rating": 4.88
+  },
+  {
+    "title": "Garden Echo",
+    "author": "Michael Gray",
+    "genre": "classic",
+    "rating": 3.51
+  },
+  {
+    "title": "Voyage Memory",
+    "author": "James Butler",
+    "genre": "thriller",
+    "rating": 4.05
+  },
+  {
+    "title": "Dream Puzzle",
+    "author": "Amelia Reed",
+    "genre": "literature",
+    "rating": 3.37
+  },
+  {
+    "title": "Voyage Shadow",
+    "author": "William Brooks",
+    "genre": "philosophy",
+    "rating": 4.11
+  },
+  {
+    "title": "Puzzle Library",
+    "author": "Olivia Hayes",
+    "genre": "technology",
+    "rating": 4.15
+  },
+  {
+    "title": "Whisper Voyage",
+    "author": "Harper Morgan",
+    "genre": "horror",
+    "rating": 4.11
+  },
+  {
+    "title": "Code Signal",
+    "author": "Harper Reed",
+    "genre": "science",
+    "rating": 3.7
+  },
+  {
+    "title": "Machine Library",
+    "author": "Amelia Coleman",
+    "genre": "technology",
+    "rating": 4.36
+  },
+  {
+    "title": "Mind Garden",
+    "author": "Emily Morgan",
+    "genre": "spirituality",
+    "rating": 4.73
+  },
+  {
+    "title": "Light Forest",
+    "author": "Charlotte Hughes",
+    "genre": "historical",
+    "rating": 3.47
+  },
+  {
+    "title": "Voyage Kingdom",
+    "author": "Liam Price",
+    "genre": "science",
+    "rating": 3.82
+  },
+  {
+    "title": "Voyage Legacy",
+    "author": "Henry Coleman",
+    "genre": "health",
+    "rating": 3.76
+  },
+  {
+    "title": "Puzzle Machine",
+    "author": "Michael Powell",
+    "genre": "environment",
+    "rating": 4.47
+  },
+  {
+    "title": "Library Quest",
+    "author": "Sophia Price",
+    "genre": "biography",
+    "rating": 4.43
+  },
+  {
+    "title": "Shadow Ocean",
+    "author": "Sophia Fisher",
+    "genre": "drama",
+    "rating": 4.45
+  },
+  {
+    "title": "Memory Library",
+    "author": "William Powell",
+    "genre": "science fiction",
+    "rating": 4.59
+  },
+  {
+    "title": "Dust Fire",
+    "author": "Mia Morgan",
+    "genre": "classic",
+    "rating": 4.64
+  },
+  {
+    "title": "Bridge Code",
+    "author": "Isabella Fisher",
+    "genre": "psychology",
+    "rating": 3.44
+  },
+  {
+    "title": "Forest Light",
+    "author": "Lucas Brooks",
+    "genre": "horror",
+    "rating": 4.4
+  },
+  {
+    "title": "Star Path",
+    "author": "Noah Coleman",
+    "genre": "health",
+    "rating": 3.55
+  },
+  {
+    "title": "Fire Voyage",
+    "author": "Emily Sullivan",
+    "genre": "business",
+    "rating": 4.48
+  },
+  {
+    "title": "Puzzle Light",
+    "author": "Isabella Brooks",
+    "genre": "education",
+    "rating": 4.71
+  },
+  {
+    "title": "Shadow Code",
+    "author": "Emily Sullivan",
+    "genre": "thriller",
+    "rating": 3.32
+  },
+  {
+    "title": "Legacy Truth",
+    "author": "Noah Long",
+    "genre": "music",
+    "rating": 3.89
+  },
+  {
+    "title": "Path Code",
+    "author": "Michael Sanders",
+    "genre": "sports",
+    "rating": 4.32
+  },
+  {
+    "title": "Kingdom Forest",
+    "author": "Sophia Sanders",
+    "genre": "drama",
+    "rating": 4.1
+  },
+  {
+    "title": "Forest Code",
+    "author": "Liam Bennett",
+    "genre": "science",
+    "rating": 3.44
+  },
+  {
+    "title": "Legacy Legacy",
+    "author": "Alexander Carter",
+    "genre": "politics",
+    "rating": 3.55
+  },
+  {
+    "title": "Voyage Mind",
+    "author": "Mia Coleman",
+    "genre": "biography",
+    "rating": 3.62
+  },
+  {
+    "title": "Dream Mind",
+    "author": "Olivia Butler",
+    "genre": "science",
+    "rating": 4.57
+  },
+  {
+    "title": "Shadow Storm",
+    "author": "Daniel Butler",
+    "genre": "science",
+    "rating": 3.48
+  },
+  {
+    "title": "Puzzle Voyage",
+    "author": "Daniel Ward",
+    "genre": "technology",
+    "rating": 4.28
+  },
+  {
+    "title": "Chronicle Bridge",
+    "author": "Amelia Foster",
+    "genre": "classic",
+    "rating": 3.64
+  },
+  {
+    "title": "Empire Kingdom",
+    "author": "Benjamin Fisher",
+    "genre": "biography",
+    "rating": 3.61
+  },
+  {
+    "title": "Kingdom Ocean",
+    "author": "Amelia Carter",
+    "genre": "mystery",
+    "rating": 3.55
+  },
+  {
+    "title": "Light Code",
+    "author": "Olivia Ross",
+    "genre": "science",
+    "rating": 4.05
+  },
+  {
+    "title": "Voyage Code",
+    "author": "Isabella Ward",
+    "genre": "technology",
+    "rating": 3.56
+  },
+  {
+    "title": "Library Quest",
+    "author": "Emily Powell",
+    "genre": "poetry",
+    "rating": 4.23
+  },
+  {
+    "title": "Dream Machine",
+    "author": "Harper Ward",
+    "genre": "young adult",
+    "rating": 3.82
+  },
+  {
+    "title": "Forest Star",
+    "author": "Daniel Sanders",
+    "genre": "sports",
+    "rating": 4.89
+  },
+  {
+    "title": "Bridge Bridge",
+    "author": "Alexander Ward",
+    "genre": "thriller",
+    "rating": 4.74
+  },
+  {
+    "title": "Library Secret",
+    "author": "Harper Sanders",
+    "genre": "horror",
+    "rating": 4.0
+  },
+  {
+    "title": "Whisper Bridge",
+    "author": "Daniel Gray",
+    "genre": "technology",
+    "rating": 4.75
+  },
+  {
+    "title": "Memory Forest",
+    "author": "Ava Morgan",
+    "genre": "health",
+    "rating": 3.81
+  },
+  {
+    "title": "Library Echo",
+    "author": "Olivia Butler",
+    "genre": "health",
+    "rating": 4.0
+  },
+  {
+    "title": "Memory Memory",
+    "author": "Charlotte Powell",
+    "genre": "fantasy",
+    "rating": 4.26
+  },
+  {
+    "title": "Voyage Star",
+    "author": "Olivia Bennett",
+    "genre": "music",
+    "rating": 3.91
+  },
+  {
+    "title": "Kingdom Legacy",
+    "author": "Noah Foster",
+    "genre": "literature",
+    "rating": 4.26
+  },
+  {
+    "title": "Legacy Echo",
+    "author": "Harper Carter",
+    "genre": "philosophy",
+    "rating": 4.45
+  },
+  {
+    "title": "Dream Shadow",
+    "author": "Daniel Sullivan",
+    "genre": "biography",
+    "rating": 4.02
+  },
+  {
+    "title": "Kingdom Journey",
+    "author": "Mia Ward",
+    "genre": "biography",
+    "rating": 3.95
+  },
+  {
+    "title": "Bridge Truth",
+    "author": "Ava Ross",
+    "genre": "romance",
+    "rating": 4.4
+  },
+  {
+    "title": "Puzzle Whisper",
+    "author": "Liam Parker",
+    "genre": "adventure",
+    "rating": 3.34
+  },
+  {
+    "title": "Kingdom Mind",
+    "author": "Harper Coleman",
+    "genre": "business",
+    "rating": 3.93
+  },
+  {
+    "title": "Legacy Path",
+    "author": "Michael Foster",
+    "genre": "business",
+    "rating": 4.11
+  },
+  {
+    "title": "Star Library",
+    "author": "William Coleman",
+    "genre": "spirituality",
+    "rating": 4.54
+  },
+  {
+    "title": "Garden Storm",
+    "author": "Amelia Butler",
+    "genre": "politics",
+    "rating": 4.34
+  },
+  {
+    "title": "Star Garden",
+    "author": "Mia Sanders",
+    "genre": "philosophy",
+    "rating": 3.85
+  },
+  {
+    "title": "Journey Machine",
+    "author": "William Sullivan",
+    "genre": "adventure",
+    "rating": 4.49
+  },
+  {
+    "title": "Bridge Signal",
+    "author": "Liam Price",
+    "genre": "self help",
+    "rating": 3.45
+  },
+  {
+    "title": "Code Memory",
+    "author": "Lucas Morgan",
+    "genre": "horror",
+    "rating": 3.34
+  },
+  {
+    "title": "Legacy Quest",
+    "author": "Emily Fisher",
+    "genre": "classic",
+    "rating": 4.16
+  },
+  {
+    "title": "Secret Empire",
+    "author": "Michael Butler",
+    "genre": "sports",
+    "rating": 4.47
+  },
+  {
+    "title": "Machine Path",
+    "author": "Mia Powell",
+    "genre": "science fiction",
+    "rating": 4.22
+  },
+  {
+    "title": "Memory Machine",
+    "author": "Emily Sanders",
+    "genre": "self help",
+    "rating": 4.54
+  },
+  {
+    "title": "Fire Ocean",
+    "author": "Charlotte Parker",
+    "genre": "music",
+    "rating": 4.02
+  },
+  {
+    "title": "Library Mind",
+    "author": "William Hayes",
+    "genre": "science fiction",
+    "rating": 3.91
+  },
+  {
+    "title": "Machine Truth",
+    "author": "Harper Gray",
+    "genre": "music",
+    "rating": 4.32
+  },
+  {
+    "title": "Storm Mind",
+    "author": "Daniel Butler",
+    "genre": "art",
+    "rating": 4.03
+  },
+  {
+    "title": "Forest Ocean",
+    "author": "Olivia Morgan",
+    "genre": "horror",
+    "rating": 3.86
+  },
+  {
+    "title": "Garden Signal",
+    "author": "Daniel Ward",
+    "genre": "environment",
+    "rating": 4.17
+  },
+  {
+    "title": "Library Library",
+    "author": "Henry Butler",
+    "genre": "adventure",
+    "rating": 3.58
+  },
+  {
+    "title": "Echo Puzzle",
+    "author": "Emily Foster",
+    "genre": "science",
+    "rating": 4.43
+  },
+  {
+    "title": "Truth Fire",
+    "author": "Liam Parker",
+    "genre": "romance",
+    "rating": 3.62
+  },
+  {
+    "title": "Path Memory",
+    "author": "Amelia Price",
+    "genre": "mystery",
+    "rating": 3.33
+  },
+  {
+    "title": "Journey Ocean",
+    "author": "James Price",
+    "genre": "young adult",
+    "rating": 4.72
+  },
+  {
+    "title": "Library Library",
+    "author": "Olivia Butler",
+    "genre": "psychology",
+    "rating": 3.72
+  },
+  {
+    "title": "Voyage Whisper",
+    "author": "Evelyn Sanders",
+    "genre": "travel",
+    "rating": 4.66
+  },
+  {
+    "title": "Ocean Code",
+    "author": "Isabella Morgan",
+    "genre": "education",
+    "rating": 3.47
+  },
+  {
+    "title": "Storm Legacy",
+    "author": "Harper Parker",
+    "genre": "young adult",
+    "rating": 4.76
+  },
+  {
+    "title": "Echo Whisper",
+    "author": "William Reed",
+    "genre": "biography",
+    "rating": 4.08
+  },
+  {
+    "title": "Dream Secret",
+    "author": "Alexander Coleman",
+    "genre": "crime",
+    "rating": 4.36
+  },
+  {
+    "title": "Dream Star",
+    "author": "Noah Powell",
+    "genre": "psychology",
+    "rating": 4.49
+  },
+  {
+    "title": "Chronicle Secret",
+    "author": "Henry Butler",
+    "genre": "politics",
+    "rating": 4.06
+  },
+  {
+    "title": "Path Whisper",
+    "author": "Michael Carter",
+    "genre": "science",
+    "rating": 4.55
+  },
+  {
+    "title": "Kingdom Code",
+    "author": "Daniel Sanders",
+    "genre": "romance",
+    "rating": 4.48
+  },
+  {
+    "title": "Machine Quest",
+    "author": "Lucas Sullivan",
+    "genre": "self help",
+    "rating": 3.51
+  },
+  {
+    "title": "Dream Shadow",
+    "author": "Amelia Gray",
+    "genre": "travel",
+    "rating": 3.64
+  },
+  {
+    "title": "Kingdom Secret",
+    "author": "Liam Carter",
+    "genre": "crime",
+    "rating": 3.73
+  },
+  {
+    "title": "Echo Path",
+    "author": "Liam Reed",
+    "genre": "adventure",
+    "rating": 3.84
+  },
+  {
+    "title": "Garden Quest",
+    "author": "Emily Foster",
+    "genre": "young adult",
+    "rating": 4.08
+  },
+  {
+    "title": "Forest Bridge",
+    "author": "Amelia Gray",
+    "genre": "adventure",
+    "rating": 3.79
+  },
+  {
+    "title": "Star Mind",
+    "author": "James Sanders",
+    "genre": "poetry",
+    "rating": 3.62
+  },
+  {
+    "title": "Whisper Ocean",
+    "author": "Emily Foster",
+    "genre": "business",
+    "rating": 3.99
+  },
+  {
+    "title": "Ocean Quest",
+    "author": "William Parker",
+    "genre": "poetry",
+    "rating": 3.96
+  },
+  {
+    "title": "Light Dream",
+    "author": "Isabella Long",
+    "genre": "travel",
+    "rating": 3.41
+  },
+  {
+    "title": "Garden Kingdom",
+    "author": "Olivia Sullivan",
+    "genre": "fantasy",
+    "rating": 3.74
+  },
+  {
+    "title": "Star Machine",
+    "author": "Ava Coleman",
+    "genre": "young adult",
+    "rating": 3.62
+  },
+  {
+    "title": "Library Legacy",
+    "author": "Charlotte Morgan",
+    "genre": "adventure",
+    "rating": 3.53
+  },
+  {
+    "title": "Storm Machine",
+    "author": "Olivia Hayes",
+    "genre": "historical",
+    "rating": 3.29
+  },
+  {
+    "title": "Whisper Kingdom",
+    "author": "Sophia Fisher",
+    "genre": "mystery",
+    "rating": 3.22
+  },
+  {
+    "title": "Empire Secret",
+    "author": "Benjamin Powell",
+    "genre": "travel",
+    "rating": 4.73
+  },
+  {
+    "title": "Puzzle Kingdom",
+    "author": "James Hughes",
+    "genre": "science",
+    "rating": 3.7
+  },
+  {
+    "title": "Storm Forest",
+    "author": "Henry Foster",
+    "genre": "environment",
+    "rating": 4.28
+  },
+  {
+    "title": "Fire Bridge",
+    "author": "Isabella Butler",
+    "genre": "horror",
+    "rating": 4.11
+  },
+  {
+    "title": "Journey Garden",
+    "author": "Isabella Foster",
+    "genre": "art",
+    "rating": 4.44
+  },
+  {
+    "title": "Dust Star",
+    "author": "William Long",
+    "genre": "art",
+    "rating": 4.77
+  },
+  {
+    "title": "Library Dust",
+    "author": "Evelyn Reed",
+    "genre": "environment",
+    "rating": 3.22
+  },
+  {
+    "title": "Light Legacy",
+    "author": "Isabella Bennett",
+    "genre": "poetry",
+    "rating": 3.75
+  },
+  {
+    "title": "Chronicle Dust",
+    "author": "Emily Butler",
+    "genre": "classic",
+    "rating": 3.81
+  },
+  {
+    "title": "Quest Echo",
+    "author": "Lucas Sanders",
+    "genre": "self help",
+    "rating": 4.79
+  },
+  {
+    "title": "Dust Fire",
+    "author": "Daniel Price",
+    "genre": "travel",
+    "rating": 4.17
+  },
+  {
+    "title": "Code Kingdom",
+    "author": "Mia Brooks",
+    "genre": "young adult",
+    "rating": 4.83
+  },
+  {
+    "title": "Whisper Dust",
+    "author": "Harper Hayes",
+    "genre": "science fiction",
+    "rating": 3.84
+  },
+  {
+    "title": "Truth Empire",
+    "author": "Daniel Butler",
+    "genre": "poetry",
+    "rating": 3.27
+  },
+  {
+    "title": "Star Ocean",
+    "author": "Alexander Carter",
+    "genre": "poetry",
+    "rating": 4.54
+  },
+  {
+    "title": "Code Light",
+    "author": "Olivia Hughes",
+    "genre": "sports",
+    "rating": 3.5
+  },
+  {
+    "title": "Mind Dust",
+    "author": "Isabella Powell",
+    "genre": "technology",
+    "rating": 3.67
+  },
+  {
+    "title": "Dust Signal",
+    "author": "Noah Fisher",
+    "genre": "travel",
+    "rating": 4.22
+  },
+  {
+    "title": "Quest Garden",
+    "author": "Daniel Fisher",
+    "genre": "politics",
+    "rating": 4.07
+  },
+  {
+    "title": "Garden Whisper",
+    "author": "James Parker",
+    "genre": "horror",
+    "rating": 3.7
+  },
+  {
+    "title": "Kingdom Echo",
+    "author": "Daniel Coleman",
+    "genre": "travel",
+    "rating": 3.4
+  },
+  {
+    "title": "Secret Storm",
+    "author": "Alexander Foster",
+    "genre": "education",
+    "rating": 3.54
+  },
+  {
+    "title": "Light Machine",
+    "author": "Daniel Sanders",
+    "genre": "science",
+    "rating": 4.01
+  },
+  {
+    "title": "Voyage Dream",
+    "author": "Evelyn Foster",
+    "genre": "poetry",
+    "rating": 3.92
+  },
+  {
+    "title": "Garden Truth",
+    "author": "Mia Bennett",
+    "genre": "adventure",
+    "rating": 4.32
+  },
+  {
+    "title": "Star Storm",
+    "author": "Olivia Carter",
+    "genre": "adventure",
+    "rating": 4.05
+  },
+  {
+    "title": "Forest Code",
+    "author": "Emily Sullivan",
+    "genre": "young adult",
+    "rating": 4.2
+  },
+  {
+    "title": "Bridge Machine",
+    "author": "Henry Hughes",
+    "genre": "sports",
+    "rating": 3.57
+  },
+  {
+    "title": "Ocean Dust",
+    "author": "Lucas Ross",
+    "genre": "music",
+    "rating": 4.39
+  },
+  {
+    "title": "Dream Dream",
+    "author": "Harper Gray",
+    "genre": "education",
+    "rating": 4.14
+  },
+  {
+    "title": "Star Puzzle",
+    "author": "Liam Carter",
+    "genre": "environment",
+    "rating": 3.5
+  },
+  {
+    "title": "Legacy Dust",
+    "author": "Mia Gray",
+    "genre": "biography",
+    "rating": 4.26
+  },
+  {
+    "title": "Empire Dream",
+    "author": "Sophia Brooks",
+    "genre": "young adult",
+    "rating": 4.09
+  },
+  {
+    "title": "Whisper Dream",
+    "author": "Isabella Carter",
+    "genre": "technology",
+    "rating": 3.85
+  },
+  {
+    "title": "Signal Bridge",
+    "author": "Ava Hughes",
+    "genre": "historical",
+    "rating": 4.59
+  },
+  {
+    "title": "Storm Echo",
+    "author": "Olivia Hayes",
+    "genre": "horror",
+    "rating": 4.85
+  },
+  {
+    "title": "Dream Truth",
+    "author": "Daniel Parker",
+    "genre": "travel",
+    "rating": 4.89
+  },
+  {
+    "title": "Shadow Path",
+    "author": "Alexander Butler",
+    "genre": "adventure",
+    "rating": 3.5
+  },
+  {
+    "title": "Forest Legacy",
+    "author": "Ava Foster",
+    "genre": "mystery",
+    "rating": 4.45
+  },
+  {
+    "title": "Bridge Star",
+    "author": "Mia Reed",
+    "genre": "adventure",
+    "rating": 4.45
+  },
+  {
+    "title": "Storm Empire",
+    "author": "Michael Ward",
+    "genre": "horror",
+    "rating": 4.56
+  },
+  {
+    "title": "Legacy Dream",
+    "author": "Lucas Gray",
+    "genre": "music",
+    "rating": 4.36
+  },
+  {
+    "title": "Library Signal",
+    "author": "Lucas Powell",
+    "genre": "thriller",
+    "rating": 3.3
+  },
+  {
+    "title": "Forest Kingdom",
+    "author": "William Powell",
+    "genre": "historical",
+    "rating": 4.71
+  },
+  {
+    "title": "Garden Secret",
+    "author": "Alexander Coleman",
+    "genre": "sports",
+    "rating": 4.31
+  },
+  {
+    "title": "Shadow Machine",
+    "author": "William Long",
+    "genre": "health",
+    "rating": 3.37
+  },
+  {
+    "title": "Echo Fire",
+    "author": "Liam Coleman",
+    "genre": "science",
+    "rating": 3.43
+  },
+  {
+    "title": "Memory Bridge",
+    "author": "Liam Sullivan",
+    "genre": "environment",
+    "rating": 3.76
+  },
+  {
+    "title": "Bridge Dream",
+    "author": "Evelyn Price",
+    "genre": "young adult",
+    "rating": 3.96
+  },
+  {
+    "title": "Shadow Library",
+    "author": "Charlotte Long",
+    "genre": "adventure",
+    "rating": 3.22
+  },
+  {
+    "title": "Ocean Whisper",
+    "author": "Ava Carter",
+    "genre": "fantasy",
+    "rating": 3.6
+  },
+  {
+    "title": "Signal Truth",
+    "author": "Ava Ward",
+    "genre": "philosophy",
+    "rating": 3.99
+  },
+  {
+    "title": "Whisper Fire",
+    "author": "Michael Coleman",
+    "genre": "technology",
+    "rating": 4.41
+  },
+  {
+    "title": "Ocean Storm",
+    "author": "Noah Long",
+    "genre": "thriller",
+    "rating": 4.63
+  },
+  {
+    "title": "Dust Kingdom",
+    "author": "Ava Reed",
+    "genre": "politics",
+    "rating": 3.49
+  },
+  {
+    "title": "Voyage Puzzle",
+    "author": "Sophia Fisher",
+    "genre": "health",
+    "rating": 3.39
+  },
+  {
+    "title": "Secret Quest",
+    "author": "Harper Hayes",
+    "genre": "health",
+    "rating": 4.16
+  },
+  {
+    "title": "Storm Whisper",
+    "author": "William Fisher",
+    "genre": "historical",
+    "rating": 4.11
+  },
+  {
+    "title": "Mind Journey",
+    "author": "Liam Reed",
+    "genre": "politics",
+    "rating": 4.23
+  },
+  {
+    "title": "Storm Secret",
+    "author": "Ava Powell",
+    "genre": "poetry",
+    "rating": 3.63
+  },
+  {
+    "title": "Dust Signal",
+    "author": "Harper Morgan",
+    "genre": "psychology",
+    "rating": 3.78
+  },
+  {
+    "title": "Voyage Storm",
+    "author": "Henry Gray",
+    "genre": "drama",
+    "rating": 3.97
+  },
+  {
+    "title": "Kingdom Whisper",
+    "author": "Evelyn Long",
+    "genre": "art",
+    "rating": 4.49
+  },
+  {
+    "title": "Echo Voyage",
+    "author": "William Ward",
+    "genre": "technology",
+    "rating": 4.06
+  },
+  {
+    "title": "Garden Storm",
+    "author": "Michael Butler",
+    "genre": "mystery",
+    "rating": 3.24
+  },
+  {
+    "title": "Code Light",
+    "author": "Ava Gray",
+    "genre": "education",
+    "rating": 4.6
+  },
+  {
+    "title": "Empire Machine",
+    "author": "Henry Ward",
+    "genre": "psychology",
+    "rating": 3.74
+  },
+  {
+    "title": "Star Path",
+    "author": "Evelyn Coleman",
+    "genre": "adventure",
+    "rating": 4.45
+  },
+  {
+    "title": "Star Path",
+    "author": "Mia Carter",
+    "genre": "travel",
+    "rating": 3.22
+  },
+  {
+    "title": "Storm Path",
+    "author": "Harper Brooks",
+    "genre": "mystery",
+    "rating": 4.78
+  },
+  {
+    "title": "Shadow Shadow",
+    "author": "Evelyn Parker",
+    "genre": "politics",
+    "rating": 4.26
+  },
+  {
+    "title": "Forest Ocean",
+    "author": "Olivia Brooks",
+    "genre": "biography",
+    "rating": 4.49
+  },
+  {
+    "title": "Dust Machine",
+    "author": "Michael Hughes",
+    "genre": "horror",
+    "rating": 4.71
+  },
+  {
+    "title": "Storm Fire",
+    "author": "William Long",
+    "genre": "business",
+    "rating": 4.54
+  },
+  {
+    "title": "Secret Forest",
+    "author": "Harper Brooks",
+    "genre": "science",
+    "rating": 4.05
+  },
+  {
+    "title": "Puzzle Journey",
+    "author": "Liam Butler",
+    "genre": "classic",
+    "rating": 3.39
+  },
+  {
+    "title": "Quest Ocean",
+    "author": "Noah Powell",
+    "genre": "classic",
+    "rating": 3.73
+  },
+  {
+    "title": "Fire Ocean",
+    "author": "Sophia Sullivan",
+    "genre": "spirituality",
+    "rating": 4.55
+  },
+  {
+    "title": "Dream Puzzle",
+    "author": "Isabella Sullivan",
+    "genre": "classic",
+    "rating": 3.89
+  },
+  {
+    "title": "Puzzle Quest",
+    "author": "Mia Brooks",
+    "genre": "poetry",
+    "rating": 4.46
+  },
+  {
+    "title": "Memory Memory",
+    "author": "Amelia Long",
+    "genre": "sports",
+    "rating": 4.26
+  },
+  {
+    "title": "Code Legacy",
+    "author": "Michael Coleman",
+    "genre": "horror",
+    "rating": 3.91
+  },
+  {
+    "title": "Ocean Empire",
+    "author": "Isabella Fisher",
+    "genre": "art",
+    "rating": 4.68
+  },
+  {
+    "title": "Signal Shadow",
+    "author": "Henry Sanders",
+    "genre": "spirituality",
+    "rating": 3.98
+  },
+  {
+    "title": "Signal Fire",
+    "author": "Amelia Brooks",
+    "genre": "historical",
+    "rating": 3.44
+  },
+  {
+    "title": "Signal Library",
+    "author": "Benjamin Foster",
+    "genre": "environment",
+    "rating": 3.53
+  },
+  {
+    "title": "Bridge Forest",
+    "author": "Michael Brooks",
+    "genre": "classic",
+    "rating": 3.49
+  },
+  {
+    "title": "Garden Dust",
+    "author": "Daniel Price",
+    "genre": "science fiction",
+    "rating": 3.22
+  },
+  {
+    "title": "Code Chronicle",
+    "author": "Daniel Parker",
+    "genre": "politics",
+    "rating": 4.36
+  },
+  {
+    "title": "Puzzle Storm",
+    "author": "Olivia Foster",
+    "genre": "romance",
+    "rating": 3.89
+  },
+  {
+    "title": "Secret Light",
+    "author": "Liam Reed",
+    "genre": "education",
+    "rating": 4.05
+  },
+  {
+    "title": "Echo Empire",
+    "author": "Harper Fisher",
+    "genre": "technology",
+    "rating": 4.55
+  },
+  {
+    "title": "Chronicle Echo",
+    "author": "James Carter",
+    "genre": "spirituality",
+    "rating": 4.53
+  },
+  {
+    "title": "Shadow Dust",
+    "author": "Isabella Gray",
+    "genre": "technology",
+    "rating": 3.4
+  },
+  {
+    "title": "Secret Library",
+    "author": "Evelyn Gray",
+    "genre": "politics",
+    "rating": 4.09
+  },
+  {
+    "title": "Library Kingdom",
+    "author": "Evelyn Carter",
+    "genre": "spirituality",
+    "rating": 3.68
+  },
+  {
+    "title": "Ocean Legacy",
+    "author": "Mia Sullivan",
+    "genre": "adventure",
+    "rating": 4.33
+  },
+  {
+    "title": "Legacy Quest",
+    "author": "Isabella Foster",
+    "genre": "environment",
+    "rating": 3.29
+  },
+  {
+    "title": "Library Library",
+    "author": "William Sanders",
+    "genre": "crime",
+    "rating": 3.65
+  },
+  {
+    "title": "Empire Journey",
+    "author": "Amelia Price",
+    "genre": "self help",
+    "rating": 4.33
+  },
+  {
+    "title": "Machine Echo",
+    "author": "Liam Coleman",
+    "genre": "crime",
+    "rating": 4.76
+  },
+  {
+    "title": "Legacy Ocean",
+    "author": "Ava Foster",
+    "genre": "technology",
+    "rating": 4.7
+  },
+  {
+    "title": "Truth Puzzle",
+    "author": "Charlotte Fisher",
+    "genre": "biography",
+    "rating": 3.73
+  },
+  {
+    "title": "Memory Library",
+    "author": "Benjamin Coleman",
+    "genre": "historical",
+    "rating": 3.63
+  },
+  {
+    "title": "Truth Signal",
+    "author": "Ava Long",
+    "genre": "adventure",
+    "rating": 3.81
+  },
+  {
+    "title": "Puzzle Empire",
+    "author": "Henry Coleman",
+    "genre": "biography",
+    "rating": 3.46
+  },
+  {
+    "title": "Whisper Dust",
+    "author": "Olivia Foster",
+    "genre": "classic",
+    "rating": 3.55
+  },
+  {
+    "title": "Signal Dust",
+    "author": "Olivia Hayes",
+    "genre": "literature",
+    "rating": 4.09
+  },
+  {
+    "title": "Puzzle Echo",
+    "author": "Olivia Hughes",
+    "genre": "art",
+    "rating": 4.54
+  },
+  {
+    "title": "Library Ocean",
+    "author": "Mia Bennett",
+    "genre": "travel",
+    "rating": 4.76
+  },
+  {
+    "title": "Dream Garden",
+    "author": "Emily Powell",
+    "genre": "health",
+    "rating": 3.86
+  },
+  {
+    "title": "Chronicle Garden",
+    "author": "Amelia Foster",
+    "genre": "young adult",
+    "rating": 3.54
+  },
+  {
+    "title": "Legacy Machine",
+    "author": "Lucas Brooks",
+    "genre": "adventure",
+    "rating": 3.53
+  },
+  {
+    "title": "Mind Empire",
+    "author": "James Ross",
+    "genre": "technology",
+    "rating": 4.59
+  },
+  {
+    "title": "Secret Shadow",
+    "author": "Charlotte Sanders",
+    "genre": "science",
+    "rating": 4.71
+  },
+  {
+    "title": "Storm Dust",
+    "author": "Lucas Powell",
+    "genre": "historical",
+    "rating": 4.15
+  },
+  {
+    "title": "Truth Ocean",
+    "author": "Ava Parker",
+    "genre": "mystery",
+    "rating": 4.14
+  },
+  {
+    "title": "Code Light",
+    "author": "Ava Parker",
+    "genre": "young adult",
+    "rating": 4.28
+  },
+  {
+    "title": "Code Dust",
+    "author": "William Price",
+    "genre": "environment",
+    "rating": 3.84
+  },
+  {
+    "title": "Star Code",
+    "author": "Mia Sullivan",
+    "genre": "environment",
+    "rating": 4.25
+  },
+  {
+    "title": "Chronicle Ocean",
+    "author": "Olivia Carter",
+    "genre": "science fiction",
+    "rating": 3.59
+  },
+  {
+    "title": "Whisper Shadow",
+    "author": "Alexander Gray",
+    "genre": "spirituality",
+    "rating": 4.85
+  },
+  {
+    "title": "Star Chronicle",
+    "author": "Lucas Sanders",
+    "genre": "art",
+    "rating": 4.76
+  },
+  {
+    "title": "Secret Machine",
+    "author": "James Foster",
+    "genre": "science fiction",
+    "rating": 3.87
+  },
+  {
+    "title": "Dust Star",
+    "author": "Evelyn Morgan",
+    "genre": "horror",
+    "rating": 3.34
+  },
+  {
+    "title": "Star Shadow",
+    "author": "Noah Price",
+    "genre": "adventure",
+    "rating": 4.33
+  },
+  {
+    "title": "Signal Library",
+    "author": "Ava Brooks",
+    "genre": "mystery",
+    "rating": 3.27
+  },
+  {
+    "title": "Light Ocean",
+    "author": "Daniel Powell",
+    "genre": "classic",
+    "rating": 3.67
+  },
+  {
+    "title": "Code Legacy",
+    "author": "Mia Gray",
+    "genre": "poetry",
+    "rating": 4.38
+  },
+  {
+    "title": "Secret Code",
+    "author": "Daniel Brooks",
+    "genre": "travel",
+    "rating": 4.21
+  },
+  {
+    "title": "Forest Library",
+    "author": "Amelia Gray",
+    "genre": "poetry",
+    "rating": 4.24
+  },
+  {
+    "title": "Machine Truth",
+    "author": "Charlotte Morgan",
+    "genre": "poetry",
+    "rating": 3.55
+  },
+  {
+    "title": "Forest Secret",
+    "author": "Emily Long",
+    "genre": "self help",
+    "rating": 4.44
+  },
+  {
+    "title": "Quest Quest",
+    "author": "Mia Morgan",
+    "genre": "education",
+    "rating": 3.69
+  },
+  {
+    "title": "Machine Bridge",
+    "author": "Olivia Long",
+    "genre": "literature",
+    "rating": 3.98
+  },
+  {
+    "title": "Secret Star",
+    "author": "Henry Carter",
+    "genre": "romance",
+    "rating": 3.58
+  },
+  {
+    "title": "Echo Fire",
+    "author": "Ava Coleman",
+    "genre": "drama",
+    "rating": 4.46
+  },
+  {
+    "title": "Machine Chronicle",
+    "author": "William Fisher",
+    "genre": "mystery",
+    "rating": 4.88
+  },
+  {
+    "title": "Voyage Fire",
+    "author": "William Ross",
+    "genre": "spirituality",
+    "rating": 3.51
+  },
+  {
+    "title": "Journey Truth",
+    "author": "Olivia Sullivan",
+    "genre": "environment",
+    "rating": 3.7
+  },
+  {
+    "title": "Shadow Dream",
+    "author": "Daniel Foster",
+    "genre": "classic",
+    "rating": 3.46
+  },
+  {
+    "title": "Mind Chronicle",
+    "author": "Alexander Ward",
+    "genre": "young adult",
+    "rating": 4.41
+  },
+  {
+    "title": "Shadow Journey",
+    "author": "Olivia Ross",
+    "genre": "adventure",
+    "rating": 4.38
+  },
+  {
+    "title": "Memory Secret",
+    "author": "Ava Sullivan",
+    "genre": "environment",
+    "rating": 4.05
+  },
+  {
+    "title": "Chronicle Ocean",
+    "author": "James Coleman",
+    "genre": "literature",
+    "rating": 3.28
+  },
+  {
+    "title": "Garden Signal",
+    "author": "Liam Carter",
+    "genre": "thriller",
+    "rating": 4.8
+  },
+  {
+    "title": "Dust Ocean",
+    "author": "Liam Gray",
+    "genre": "philosophy",
+    "rating": 3.86
+  },
+  {
+    "title": "Code Light",
+    "author": "Emily Sanders",
+    "genre": "young adult",
+    "rating": 3.25
+  },
+  {
+    "title": "Fire Voyage",
+    "author": "Amelia Price",
+    "genre": "politics",
+    "rating": 3.78
+  },
+  {
+    "title": "Journey Star",
+    "author": "Lucas Ross",
+    "genre": "mystery",
+    "rating": 4.82
+  },
+  {
+    "title": "Dust Garden",
+    "author": "Olivia Brooks",
+    "genre": "sports",
+    "rating": 3.98
+  },
+  {
+    "title": "Machine Mind",
+    "author": "Liam Long",
+    "genre": "poetry",
+    "rating": 3.58
+  },
+  {
+    "title": "Library Legacy",
+    "author": "Daniel Hayes",
+    "genre": "science fiction",
+    "rating": 4.38
+  },
+  {
+    "title": "Quest Echo",
+    "author": "Amelia Sullivan",
+    "genre": "education",
+    "rating": 4.26
+  },
+  {
+    "title": "Mind Echo",
+    "author": "Olivia Price",
+    "genre": "politics",
+    "rating": 4.36
+  },
+  {
+    "title": "Bridge Forest",
+    "author": "Henry Long",
+    "genre": "horror",
+    "rating": 4.42
+  },
+  {
+    "title": "Star Whisper",
+    "author": "Harper Sullivan",
+    "genre": "politics",
+    "rating": 3.93
+  },
+  {
+    "title": "Shadow Shadow",
+    "author": "Daniel Morgan",
+    "genre": "spirituality",
+    "rating": 4.27
+  },
+  {
+    "title": "Voyage Memory",
+    "author": "Ava Powell",
+    "genre": "travel",
+    "rating": 4.07
+  },
+  {
+    "title": "Bridge Chronicle",
+    "author": "James Hughes",
+    "genre": "art",
+    "rating": 4.01
+  },
+  {
+    "title": "Empire Ocean",
+    "author": "Liam Brooks",
+    "genre": "travel",
+    "rating": 4.8
+  },
+  {
+    "title": "Voyage Light",
+    "author": "Lucas Bennett",
+    "genre": "technology",
+    "rating": 4.21
+  },
+  {
+    "title": "Garden Code",
+    "author": "Mia Carter",
+    "genre": "education",
+    "rating": 3.51
+  },
+  {
+    "title": "Secret Truth",
+    "author": "Mia Foster",
+    "genre": "politics",
+    "rating": 4.1
+  },
+  {
+    "title": "Empire Truth",
+    "author": "James Sullivan",
+    "genre": "philosophy",
+    "rating": 3.58
+  },
+  {
+    "title": "Bridge Empire",
+    "author": "James Coleman",
+    "genre": "fantasy",
+    "rating": 4.23
+  }
 ]

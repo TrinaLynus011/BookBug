@@ -1,0 +1,46 @@
+[
+  {
+    "username": "trina",
+    "password": "2dc404d32b6fe52297c4e22beef90b8a$e59b6630f28e172b4db42a007669e8fa23774c9b28e98d4df79e4a51e5f579f5"
+  },
+  {
+    "username": "u1",
+    "password": "2837cd74d4cbc6c6457d7c4d780037cb$fc2053292d789b2a33b69cf4a418bfd99138aaead5099887c83d3d1932733031"
+  },
+  {
+    "username": "session_user",
+    "password": "cc175c62580f4c70c383608048b7e64f$267f73ba253e0722779c690768c09d294ee012a8b0f24cd5da6d92b3470bd12a"
+  },
+  {
+    "username": "joan",
+    "password": "1656880dc652da7b05a0205c74fde4ef$84b5fd841bc6a310ac0951d7a9f00bc608a175e6669b4397040a8a010a650442"
+  },
+  {
+    "username": "Thangamey",
+    "password": "e235f3218f04cbf4314daf4ff455baf8$e4caf8df7417e2e6936a7c04a80de8165d00814aa5b5a3f535c80cff27daaac1"
+  },
+  {
+    "username": "testuser_auth",
+    "password": "3cb8c1c86321c097797854494ba98083$7d7123979ee3b8dc3db00f56ff05796221bf8b3d6dbee3f4a49bb8c8fb37524f"
+  },
+  {
+    "username": "testuser_wrongpw",
+    "password": "73bc5d94ac5601a91a05df0388783ae6$d033e5e567150b2fbcb94858d07f1bbf5c731ecb263098cd5bf6ef1208702278"
+  },
+  {
+    "username": "testuser_dup",
+    "password": "2992001ac91a316b28e9f19c4a3d2060$8631af3b831bcca50911328947d7cc56bbe02fcaf0e5e3365340342ea141dbf0"
+  },
+  {
+    "username": "hist_user_a",
+    "password": "b609be0b023d90db38d0fa488aad27c7$9172dc29d1f691e8e84b5b03245fd1bf8f0c95e132e4b2e37ce15b378e0922e9"
+  },
+  {
+    "username": "hist_user_b",
+    "password": "6e14c5a9b44366bdd1cf57d73cd26897$8bc28d1c11ad53bbdaad86746e03e6363e31752139cafe8c7be8b15a67c8eabc"
+  },
+  {
+    "username": "hist_user_record",
+    "password": "6481edf48bff3cc80c74699cc850ba39$93af2acd0ab6dde6f04979bf4ec79efd5faf645bf7844fc756586a5e4933aa0f"
+  }
+]

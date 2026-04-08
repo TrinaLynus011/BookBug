@@ -1,11 +1,11 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: bookbee-backend-service
-  namespace: bookbee
+  name: bookbug-backend-service
+  namespace: bookbug
 spec:
   selector:
-    app: bookbee-backend
+    app: bookbug-backend
   type: NodePort
   ports:
     - protocol: TCP

@@ -1,194 +1,165 @@
-# BookBee DevOps Platform - Scalable Recommendation System
+# BookBug – DevOps CI/CD Pipeline Demo
 
-BookBee is a fully local, production-style full-stack platform that demonstrates recommendation logic, modern UI engineering, and complete DevOps delivery with CI/CD, Docker, Kubernetes, and Terraform.
+BookBug is a book-recommendation web application used to demonstrate a complete DevOps lifecycle:
+version control → CI/CD → containerisation → infrastructure as code → container orchestration → automated deployment.
 
-## Project Overview
+---
 
-- Frontend: React + Vite application with genre reveal, recommendations, and history timeline.
-- Backend: FastAPI service exposing recommendation APIs and observability endpoints.
-- Recommendation Engine: Dedicated module (`recommender/`) using weighted scoring and de-duplication.
-- Dataset: Local JSON with 100 books (no external API usage).
-- DevOps: GitHub Actions pipeline, Docker images, Kubernetes deployment, Terraform IaC.
+## Architecture Overview
 
-## Architecture Diagram
-
-```mermaid
-flowchart LR
-  User[User Browser] --> FE[React Frontend]
-  FE -->|HTTP| BE[FastAPI Backend]
-  BE --> RE[Recommendation Engine]
-  RE --> DS[Local JSON Dataset]
-
-  subgraph CI/CD [GitHub Actions]
-    T1[Tests and Lint]
-    T2[Build and Push Docker Images]
-    T3[Deploy to Kubernetes]
-    T1 --> T2 --> T3
-  end
-
-  T3 --> K8S[Minikube Kubernetes Cluster]
-  K8S --> FE
-  K8S --> BE
+```
+Developer push
+     │
+     ▼
+GitHub Repository
+     │
+     ▼
+GitHub Actions CI/CD (.github/workflows/ci.yml)
+  ├── Lint (flake8)
+  ├── Test (pytest)
+  ├── Build Docker image
+  └── Push to Docker Hub
+           │
+           ▼
+     Docker Hub Registry
+           │
+     ┌─────┴──────┐
+     ▼            ▼
+Terraform      Ansible
+(infra/)       (ansible/)
+AWS VPC/EC2    Pull & run container
+           │
+           ▼
+  Kubernetes Cluster (k8s/)
+  ├── bookbug-backend  (2 replicas)
+  └── bookbug-frontend (2 replicas)
 ```
 
-## Repository Structure
+---
 
-```text
-bookbee-devops/
-|- frontend/
-|- backend/
-|- recommender/
-|- dataset/
-|- docker-compose.yml
-|- k8s/
-|- terraform/
-|- .github/workflows/
-`- README.md
+## Project Structure
+
+```
+BookBug/
+├── backend/
+│   ├── app/              # FastAPI application
+│   ├── tests/            # pytest test suite
+│   ├── Dockerfile        # Production Docker image
+│   └── requirements.txt
+├── frontend/             # React/Vite frontend (unchanged)
+├── infra/                # Terraform – AWS VM + networking
+│   ├── main.tf
+│   ├── variables.tf
+│   └── outputs.tf
+├── k8s/                  # Kubernetes manifests
+│   ├── deployment.yaml
+│   └── service.yaml
+├── ansible/              # Ansible automation
+│   ├── deploy.yml
+│   └── inventory.ini
+├── .github/
+│   └── workflows/
+│       └── ci.yml        # GitHub Actions pipeline
+├── docker-compose.yml    # Local full-stack deployment
+└── README.md
 ```
 
-## Backend API
+---
 
-- `GET /health`: service health check
-- `GET /metrics`: Prometheus-formatted metrics
-- `GET /genre`: returns a random genre
-- `GET /recommend/{genre}`: returns 3 to 5 weighted recommendations
-- `GET /history`: returns in-memory recommendation history
-
-## Recommendation Logic
-
-- Randomized weighted selection based on rating and exploration factor
-- De-duplication by title per response
-- Bounded response size (minimum 3, maximum 5)
-- Genre-indexed in-memory cache for fast lookup
-
-## Local Development
-
-### Prerequisites
-
-- Python 3.12+
-- Node.js 22+
-- Docker Desktop
-- Minikube + kubectl
-- Terraform 1.6+
-
-### Run backend locally
+## Quick Start – Local Development
 
 ```bash
-pip install -r backend/requirements.txt
-uvicorn app.main:app --app-dir backend --host 0.0.0.0 --port 8000
-```
+# Copy and edit environment variables
+cp .env.example .env   # set SECRET_KEY
 
-### Run frontend locally
-
-```bash
-cd frontend
-npm install
-npm run dev
-```
-
-### Run tests and lint
-
-```bash
-pytest
-ruff check backend recommender
-cd frontend && npm run test
-cd frontend && npm run lint
-```
-
-## Docker
-
-### Build and run with Compose
-
-```bash
+# Start all services (backend + frontend + MongoDB)
 docker compose up --build
 ```
 
-- Frontend: `http://localhost:3000`
-- Backend: `http://localhost:8000`
+- Frontend: http://localhost:3000
+- Backend API: http://localhost:8000
+- API docs: http://localhost:8000/docs
 
-## Kubernetes (Minikube)
-
-### Apply manifests
-
-```bash
-kubectl apply -f k8s/namespace.yaml
-kubectl apply -f k8s/backend-deployment.yaml
-kubectl apply -f k8s/backend-service.yaml
-kubectl apply -f k8s/frontend-deployment.yaml
-kubectl apply -f k8s/frontend-service.yaml
-kubectl apply -f k8s/hpa.yaml
-```
-
-### Access services
-
-```bash
-minikube ip
-```
-
-- Frontend: `http://<MINIKUBE_IP>:30081`
-- Backend: `http://<MINIKUBE_IP>:30080`
-
-## Terraform IaC Usage
-
-```bash
-cd terraform
-terraform init
-terraform plan -var="dockerhub_username=<your-dockerhub-username>"
-terraform apply -var="dockerhub_username=<your-dockerhub-username>"
-```
-
-Terraform provisions namespace, deployments, and services in Kubernetes.
+---
 
 ## CI/CD Pipeline (GitHub Actions)
 
-File: `.github/workflows/ci-cd.yml`
+The pipeline runs automatically on every push/PR to `main`.
 
-Pipeline stages:
-1. Install dependencies
-2. Run backend tests (`pytest`)
-3. Run frontend tests (`vitest`)
-4. Lint code (`ruff`, `eslint`)
-5. Build Docker images
-6. Push images to Docker Hub
-7. Deploy to Kubernetes automatically on `main`
+| Stage | Tool | What happens |
+|-------|------|-------------|
+| Lint | flake8 | PEP-8 style checks |
+| Test | pytest | Unit & integration tests |
+| Build | Docker Buildx | Multi-platform image build |
+| Push | Docker Hub | Image tagged `:latest` + `:sha` |
 
 ### Required GitHub Secrets
 
-- `DOCKERHUB_USERNAME`
-- `DOCKERHUB_TOKEN`
-- `KUBECONFIG` (base64 or plaintext kubeconfig for runner)
+| Secret | Description |
+|--------|-------------|
+| `DOCKERHUB_USERNAME` | Your Docker Hub username |
+| `DOCKERHUB_TOKEN` | Docker Hub access token |
 
-## Git Strategy
+---
 
-- Branches: `main`, `develop`, and `feature/*`
-- PR-first workflow is documented in `CONTRIBUTING.md`
-- Conventional commit prefixes: `feat:`, `fix:`, `chore:`
+## Infrastructure as Code (Terraform)
 
-## Screenshots
-
-Place screenshots under `docs/screenshots/`.
-
-- `docs/screenshots/ui-home.png`
-- `docs/screenshots/history-view.png`
-- `docs/screenshots/minikube-services.png`
-
-## Commands Used
+Provisions an AWS VPC, public subnet, security group, and EC2 instance that auto-starts the container on boot.
 
 ```bash
-# Frontend
-npm install
-npm run dev
-npm run test
-npm run lint
-
-# Backend
-pip install -r backend/requirements.txt
-uvicorn app.main:app --app-dir backend --host 0.0.0.0 --port 8000
-pytest
-ruff check backend recommender
-
-# Containers and deployment
-docker compose up --build
-kubectl apply -f k8s/
-terraform init && terraform apply
+cd infra/
+terraform init
+terraform plan -var="dockerhub_username=<you>" -var="secret_key=<key>"
+terraform apply
 ```
+
+Outputs the public IP and backend URL.
+
+---
+
+## Kubernetes Deployment
+
+```bash
+# Create namespace + deployments + services
+kubectl apply -f k8s/deployment.yaml
+kubectl apply -f k8s/service.yaml
+
+# Verify pods are running
+kubectl get pods -n bookbug
+
+# Access the app
+# Backend:  http://<node-ip>:30080
+# Frontend: http://<node-ip>:30081
+```
+
+> Update `your-dockerhub-username` in `k8s/deployment.yaml` before applying.
+
+---
+
+## Ansible Automation
+
+Installs Docker, pulls the image, and starts the container on any Ubuntu host.
+
+```bash
+cd ansible/
+
+# Edit inventory.ini with your server IP and SSH key path
+ansible-playbook -i inventory.ini deploy.yml \
+  -e "dockerhub_username=<you>" \
+  -e "secret_key=<key>"
+```
+
+---
+
+## DevOps Capabilities Demonstrated
+
+| Capability | Implementation |
+|-----------|---------------|
+| Version Control | Git + GitHub |
+| CI/CD Automation | GitHub Actions |
+| Containerisation | Docker + Docker Compose |
+| Infrastructure as Code | Terraform (AWS) |
+| Container Orchestration | Kubernetes |
+| Automated Deployment | Ansible |
+| Scalable Architecture | K8s replicas + HPA |
+| Observability | Prometheus metrics (`/metrics`) |

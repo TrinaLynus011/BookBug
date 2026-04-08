@@ -1,4 +1,4 @@
-resource "kubernetes_namespace" "bookbee" {
+resource "kubernetes_namespace" "bookbug" {
   metadata {
     name = var.namespace
   }
@@ -6,10 +6,10 @@ resource "kubernetes_namespace" "bookbee" {
 
 resource "kubernetes_deployment" "backend" {
   metadata {
-    name      = "bookbee-backend"
-    namespace = kubernetes_namespace.bookbee.metadata[0].name
+    name      = "bookbug-backend"
+    namespace = kubernetes_namespace.bookbug.metadata[0].name
     labels = {
-      app = "bookbee-backend"
+      app = "bookbug-backend"
     }
   }
 
@@ -18,20 +18,20 @@ resource "kubernetes_deployment" "backend" {
 
     selector {
       match_labels = {
-        app = "bookbee-backend"
+        app = "bookbug-backend"
       }
     }
 
     template {
       metadata {
         labels = {
-          app = "bookbee-backend"
+          app = "bookbug-backend"
         }
       }
 
       spec {
         container {
-          image = "${var.dockerhub_username}/bookbee-backend:latest"
+          image = "${var.dockerhub_username}/bookbug-backend:latest"
           name  = "backend"
 
           port {
@@ -63,13 +63,13 @@ resource "kubernetes_deployment" "backend" {
 
 resource "kubernetes_service" "backend" {
   metadata {
-    name      = "bookbee-backend-service"
-    namespace = kubernetes_namespace.bookbee.metadata[0].name
+    name      = "bookbug-backend-service"
+    namespace = kubernetes_namespace.bookbug.metadata[0].name
   }
 
   spec {
     selector = {
-      app = "bookbee-backend"
+      app = "bookbug-backend"
     }
 
     type = "NodePort"
@@ -84,10 +84,10 @@ resource "kubernetes_service" "backend" {
 
 resource "kubernetes_deployment" "frontend" {
   metadata {
-    name      = "bookbee-frontend"
-    namespace = kubernetes_namespace.bookbee.metadata[0].name
+    name      = "bookbug-frontend"
+    namespace = kubernetes_namespace.bookbug.metadata[0].name
     labels = {
-      app = "bookbee-frontend"
+      app = "bookbug-frontend"
     }
   }
 
@@ -96,20 +96,20 @@ resource "kubernetes_deployment" "frontend" {
 
     selector {
       match_labels = {
-        app = "bookbee-frontend"
+        app = "bookbug-frontend"
       }
     }
 
     template {
       metadata {
         labels = {
-          app = "bookbee-frontend"
+          app = "bookbug-frontend"
         }
       }
 
       spec {
         container {
-          image = "${var.dockerhub_username}/bookbee-frontend:latest"
+          image = "${var.dockerhub_username}/bookbug-frontend:latest"
           name  = "frontend"
 
           port {
@@ -123,13 +123,13 @@ resource "kubernetes_deployment" "frontend" {
 
 resource "kubernetes_service" "frontend" {
   metadata {
-    name      = "bookbee-frontend-service"
-    namespace = kubernetes_namespace.bookbee.metadata[0].name
+    name      = "bookbug-frontend-service"
+    namespace = kubernetes_namespace.bookbug.metadata[0].name
   }
 
   spec {
     selector = {
-      app = "bookbee-frontend"
+      app = "bookbug-frontend"
     }
 
     type = "NodePort"

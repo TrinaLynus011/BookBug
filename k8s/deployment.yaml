@@ -1,0 +1,90 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: bookbug
+
+---
+# ── Backend Deployment ────────────────────────────────────────────────────────
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: bookbug-backend
+  namespace: bookbug
+  labels:
+    app: bookbug-backend
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: bookbug-backend
+  template:
+    metadata:
+      labels:
+        app: bookbug-backend
+    spec:
+      containers:
+        - name: backend
+          image: your-dockerhub-username/bookbug-backend:latest
+          imagePullPolicy: Always
+          ports:
+            - containerPort: 8000
+          env:
+            - name: SECRET_KEY
+              valueFrom:
+                secretKeyRef:
+                  name: bookbug-secrets
+                  key: secret-key
+            - name: MONGODB_URL
+              value: "mongodb://bookbug-mongodb:27017"
+          livenessProbe:
+            httpGet:
+              path: /health
+              port: 8000
+            initialDelaySeconds: 15
+            periodSeconds: 10
+          readinessProbe:
+            httpGet:
+              path: /health
+              port: 8000
+            initialDelaySeconds: 5
+            periodSeconds: 10
+          resources:
+            requests:
+              cpu: "100m"
+              memory: "128Mi"
+            limits:
+              cpu: "500m"
+              memory: "512Mi"
+
+---
+# ── Frontend Deployment ───────────────────────────────────────────────────────
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: bookbug-frontend
+  namespace: bookbug
+  labels:
+    app: bookbug-frontend
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: bookbug-frontend
+  template:
+    metadata:
+      labels:
+        app: bookbug-frontend
+    spec:
+      containers:
+        - name: frontend
+          image: your-dockerhub-username/bookbug-frontend:latest
+          imagePullPolicy: Always
+          ports:
+            - containerPort: 80
+          resources:
+            requests:
+              cpu: "50m"
+              memory: "64Mi"
+            limits:
+              cpu: "200m"
+              memory: "128Mi"

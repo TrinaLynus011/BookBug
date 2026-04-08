@@ -1,15 +1,46 @@
 version: '3.9'
 
+# BookBug – local development stack
+# Usage:
+#   cp .env.example .env   # then set SECRET_KEY
+#   docker compose up --build
+
 services:
+
+  mongodb:
+    image: mongo:7
+    container_name: bookbug-mongodb
+    restart: unless-stopped
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongodb_data:/data/db
+      - ./mongo-init:/docker-entrypoint-initdb.d:ro
+    environment:
+      MONGO_INITDB_DATABASE: bookbug
+    healthcheck:
+      test: ["CMD", "mongosh", "--eval", "db.adminCommand('ping')"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
   backend:
     build:
       context: .
       dockerfile: backend/Dockerfile
-    container_name: bookbee-backend
+    container_name: bookbug-backend
+    restart: unless-stopped
+    environment:
+      SECRET_KEY: ${SECRET_KEY:-dev-secret-change-in-production}
+      MONGODB_URL: mongodb://mongodb:27017
     ports:
       - "8000:8000"
+    depends_on:
+      mongodb:
+        condition: service_healthy
     healthcheck:
-      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8000/health')"]
+      test: ["CMD", "python", "-c",
+             "import urllib.request; urllib.request.urlopen('http://localhost:8000/health')"]
       interval: 20s
       timeout: 5s
       retries: 3
@@ -18,10 +49,14 @@ services:
     build:
       context: .
       dockerfile: frontend/Dockerfile
-    container_name: bookbee-frontend
+    container_name: bookbug-frontend
+    restart: unless-stopped
     ports:
       - "3000:80"
     environment:
-      - VITE_API_BASE_URL=http://localhost:8000
+      VITE_API_BASE_URL: http://localhost:8000
     depends_on:
       - backend
+
+volumes:
+  mongodb_data:

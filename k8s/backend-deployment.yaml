@@ -1,21 +1,21 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: bookbee-backend
-  namespace: bookbee
+  name: bookbug-backend
+  namespace: bookbug
 spec:
   replicas: 2
   selector:
     matchLabels:
-      app: bookbee-backend
+      app: bookbug-backend
   template:
     metadata:
       labels:
-        app: bookbee-backend
+        app: bookbug-backend
     spec:
       containers:
         - name: backend
-          image: your-dockerhub-username/bookbee-backend:latest
+          image: your-dockerhub-username/bookbug-backend:latest
           imagePullPolicy: Always
           ports:
             - containerPort: 8000

@@ -1,21 +1,76 @@
-# Python
+# ── Python ────────────────────────────────────────────────────────────────
 __pycache__/
-*.pyc
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
 .pytest_cache/
+.mypy_cache/
+.ruff_cache/
 .venv/
+venv/
+env/
+*.egg
 
-# Node
+# ── Node / Frontend ───────────────────────────────────────────────────────
 frontend/node_modules/
 frontend/dist/
+frontend/.vite/
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
 
-# Terraform
+# ── Terraform ─────────────────────────────────────────────────────────────
+infra/.terraform/
+infra/.terraform.lock.hcl
+infra/tfplan
+infra/*.tfstate
+infra/*.tfstate.backup
 terraform/.terraform/
 terraform/.terraform.lock.hcl
 terraform/tfplan
+terraform/*.tfstate
+terraform/*.tfstate.backup
 
-# OS
+# ── Docker ────────────────────────────────────────────────────────────────
+*.tar
+*.tar.gz
+
+# ── Environment & secrets ─────────────────────────────────────────────────
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+
+# ── OS ────────────────────────────────────────────────────────────────────
 .DS_Store
 Thumbs.db
+desktop.ini
 
-# Env
-.env
+# ── IDE ───────────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ── Temp / scratch ────────────────────────────────────────────────────────
+temp.json
+*.tmp
+*.log
+
+# ── Large binary / media files ────────────────────────────────────────────
+*.docx
+*.pdf
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.zip
+*.rar
+*.7z

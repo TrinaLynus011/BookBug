@@ -6,8 +6,8 @@ variable "kubeconfig_path" {
 
 variable "namespace" {
   type        = string
-  description = "Namespace for BookBee resources"
-  default     = "bookbee"
+  description = "Namespace for BookBug resources"
+  default     = "bookbug"
 }
 
 variable "dockerhub_username" {

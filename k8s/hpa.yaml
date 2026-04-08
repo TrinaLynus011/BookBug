@@ -1,13 +1,13 @@
 apiVersion: autoscaling/v2
 kind: HorizontalPodAutoscaler
 metadata:
-  name: bookbee-backend-hpa
-  namespace: bookbee
+  name: bookbug-backend-hpa
+  namespace: bookbug
 spec:
   scaleTargetRef:
     apiVersion: apps/v1
     kind: Deployment
-    name: bookbee-backend
+    name: bookbug-backend
   minReplicas: 2
   maxReplicas: 6
   metrics:

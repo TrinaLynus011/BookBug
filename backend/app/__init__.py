@@ -1,1 +1,1 @@
-"""BookBee backend package."""
+"""BookBug backend package."""

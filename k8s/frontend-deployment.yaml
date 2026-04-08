@@ -1,21 +1,21 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: bookbee-frontend
-  namespace: bookbee
+  name: bookbug-frontend
+  namespace: bookbug
 spec:
   replicas: 2
   selector:
     matchLabels:
-      app: bookbee-frontend
+      app: bookbug-frontend
   template:
     metadata:
       labels:
-        app: bookbee-frontend
+        app: bookbug-frontend
     spec:
       containers:
         - name: frontend
-          image: your-dockerhub-username/bookbee-frontend:latest
+          image: your-dockerhub-username/bookbug-frontend:latest
           imagePullPolicy: Always
           ports:
             - containerPort: 80

@@ -1,0 +1,247 @@
+{
+  "joan": {
+    "history": [
+      {
+        "genre": "crime",
+        "books": [
+          {
+            "title": "Shadow Light",
+            "author": "Amelia Sanders",
+            "genre": "crime",
+            "rating": 4.85
+          },
+          {
+            "title": "Light Code",
+            "author": "Charlotte Sanders",
+            "genre": "crime",
+            "rating": 4.41
+          },
+          {
+            "title": "Storm Dust",
+            "author": "Emily Carter",
+            "genre": "crime",
+            "rating": 3.61
+          },
+          {
+            "title": "Library Library",
+            "author": "William Sanders",
+            "genre": "crime",
+            "rating": 3.65
+          },
+          {
+            "title": "Code Voyage",
+            "author": "James Hayes",
+            "genre": "crime",
+            "rating": 4.15
+          }
+        ]
+      },
+      {
+        "genre": "technology",
+        "books": [
+          {
+            "title": "Machine Library",
+            "author": "Amelia Coleman",
+            "genre": "technology",
+            "rating": 4.36
+          },
+          {
+            "title": "Voyage Code",
+            "author": "Isabella Ward",
+            "genre": "technology",
+            "rating": 3.56
+          },
+          {
+            "title": "Whisper Bridge",
+            "author": "Daniel Gray",
+            "genre": "technology",
+            "rating": 4.75
+          },
+          {
+            "title": "Legacy Code",
+            "author": "Charlotte Powell",
+            "genre": "technology",
+            "rating": 3.88
+          },
+          {
+            "title": "Whisper Dream",
+            "author": "Isabella Carter",
+            "genre": "technology",
+            "rating": 3.85
+          }
+        ]
+      }
+    ],
+    "preferences": {
+      "genres": {
+        "technology": 1,
+        "crime": 1
+      },
+      "books": [
+        "Machine Library",
+        "Voyage Code",
+        "Whisper Bridge",
+        "Legacy Code",
+        "Whisper Dream",
+        "Shadow Light",
+        "Light Code",
+        "Storm Dust",
+        "Library Library",
+        "Code Voyage"
+      ]
+    }
+  },
+  "Thangamey": {
+    "history": [
+      {
+        "genre": "sports",
+        "books": [
+          {
+            "title": "Light Light",
+            "author": "Mia Brooks",
+            "genre": "sports",
+            "rating": 3.87
+          },
+          {
+            "title": "Dust Garden",
+            "author": "Olivia Brooks",
+            "genre": "sports",
+            "rating": 3.98
+          },
+          {
+            "title": "Bridge Machine",
+            "author": "Henry Hughes",
+            "genre": "sports",
+            "rating": 3.57
+          },
+          {
+            "title": "Forest Legacy",
+            "author": "Evelyn Fisher",
+            "genre": "sports",
+            "rating": 4.79
+          },
+          {
+            "title": "Shadow Forest",
+            "author": "Noah Reed",
+            "genre": "sports",
+            "rating": 3.99
+          }
+        ]
+      }
+    ],
+    "preferences": {
+      "genres": {
+        "sports": 1
+      },
+      "books": [
+        "Light Light",
+        "Dust Garden",
+        "Bridge Machine",
+        "Forest Legacy",
+        "Shadow Forest"
+      ]
+    }
+  },
+  "hist_user_a": {
+    "history": [
+      {
+        "genre": "travel",
+        "books": [
+          {
+            "title": "Kingdom Signal",
+            "author": "Benjamin Carter",
+            "genre": "travel",
+            "rating": 4.38
+          },
+          {
+            "title": "Voyage Memory",
+            "author": "Ava Powell",
+            "genre": "travel",
+            "rating": 4.07
+          },
+          {
+            "title": "Fire Quest",
+            "author": "Alexander Parker",
+            "genre": "travel",
+            "rating": 3.85
+          },
+          {
+            "title": "Machine Forest",
+            "author": "Michael Hughes",
+            "genre": "travel",
+            "rating": 4.06
+          },
+          {
+            "title": "Light Dream",
+            "author": "Isabella Long",
+            "genre": "travel",
+            "rating": 3.41
+          }
+        ]
+      }
+    ],
+    "preferences": {
+      "genres": {
+        "travel": 1
+      },
+      "books": [
+        "Kingdom Signal",
+        "Voyage Memory",
+        "Fire Quest",
+        "Machine Forest",
+        "Light Dream"
+      ]
+    }
+  },
+  "hist_user_record": {
+    "history": [
+      {
+        "genre": "crime",
+        "books": [
+          {
+            "title": "Dream Secret",
+            "author": "Alexander Coleman",
+            "genre": "crime",
+            "rating": 4.36
+          },
+          {
+            "title": "Secret Garden",
+            "author": "Alexander Sullivan",
+            "genre": "crime",
+            "rating": 3.96
+          },
+          {
+            "title": "Shadow Light",
+            "author": "Amelia Sanders",
+            "genre": "crime",
+            "rating": 4.85
+          },
+          {
+            "title": "Storm Dust",
+            "author": "Henry Hughes",
+            "genre": "crime",
+            "rating": 4.78
+          },
+          {
+            "title": "Library Library",
+            "author": "William Sanders",
+            "genre": "crime",
+            "rating": 3.65
+          }
+        ]
+      }
+    ],
+    "preferences": {
+      "genres": {
+        "crime": 1
+      },
+      "books": [
+        "Dream Secret",
+        "Secret Garden",
+        "Shadow Light",
+        "Storm Dust",
+        "Library Library"
+      ]
+    }
+  }
+}
