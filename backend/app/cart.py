@@ -15,12 +15,11 @@ async def get_user_cart(username: str) -> list[dict[str, Any]]:
 async def add_to_cart(username: str, book: dict[str, Any]) -> bool:
     """Add book to cart only if not already present (no duplicates)."""
     collection = get_collection("carts")
-    # Check for existing book by title first
     existing = await collection.find_one(
         {"username": username, "books.title": book["title"]}
     )
     if existing:
-        return False  # already in cart
+        return False
     result = await collection.update_one(
         {"username": username},
         {
@@ -57,53 +56,11 @@ async def clear_cart(username: str) -> bool:
 
 async def mark_as_read(username: str, book: dict[str, Any]) -> bool:
     collection = get_collection("read_books")
-    result = await collection.update_one(
-        {"username": username},
-        {
-            "$addToSet": {
-                "books": {
-                    "title": book["title"],
-                    "author": book["author"],
-                    "genre": book["genre"],
-                    "rating": book["rating"],
-                    "read_at": datetime.utcnow().isoformat(),
-                }
-            },
-            "$setOnInsert": {"username": username},
-        },
-        upsert=True,
-    )
-    return result.modified_count > 0 or result.upserted_id is not None
-
-
-async def get_read_books(username: str) -> list[dict[str, Any]]:
-    collection = get_collection("read_books")
-    record = await collection.find_one({"username": username})
-    return record.get("books", []) if record else []
-
-
-async def remove_from_cart(username: str, book_title: str) -> bool:
-    collection = get_collection("carts")
-    result = await collection.update_one(
-        {"username": username},
-        {"$pull": {"books": {"title": book_title}}},
-    )
-    return result.modified_count > 0
-
-
-async def clear_cart(username: str) -> bool:
-    collection = get_collection("carts")
-    result = await collection.delete_one({"username": username})
-    return result.deleted_count > 0
-
-
-async def mark_as_read(username: str, book: dict[str, Any]) -> bool:
-    collection = get_collection("read_books")
     existing = await collection.find_one(
         {"username": username, "books.title": book["title"]}
     )
     if existing:
-        return False  # already marked read
+        return False
     result = await collection.update_one(
         {"username": username},
         {
@@ -138,13 +95,11 @@ async def like_book(username: str, book: dict[str, Any]) -> bool:
         {"username": username, "books.title": book["title"]}
     )
     if existing:
-        # Unlike
         await collection.update_one(
             {"username": username},
             {"$pull": {"books": {"title": book["title"]}}},
         )
         return False
-    # Like
     await collection.update_one(
         {"username": username},
         {

@@ -4,12 +4,12 @@ The app gracefully falls back to file-based storage when MongoDB is unavailable.
 """
 from __future__ import annotations
 
-import pytest
 from fastapi.testclient import TestClient
 
 from app.main import app
 
 client = TestClient(app)
+
 
 # ── helpers ───────────────────────────────────────────────────────────────────
 
@@ -78,15 +78,12 @@ def test_history_is_user_specific() -> None:
     token_a = _register_and_login("hist_user_a")
     token_b = _register_and_login("hist_user_b")
 
-    # User A makes a recommendation request
     genre = client.get("/genre").json()["genre"]
     client.get(f"/recommend/{genre}", headers={"Authorization": f"Bearer {token_a}"})
 
-    # User A should have history
     hist_a = client.get("/history", headers={"Authorization": f"Bearer {token_a}"}).json()
     assert len(hist_a["history"]) >= 1
 
-    # User B should have NO history (different user)
     hist_b = client.get("/history", headers={"Authorization": f"Bearer {token_b}"}).json()
     assert hist_b["history"] == []
 
