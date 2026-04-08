@@ -95,10 +95,7 @@ jobs:
     runs-on: ubuntu-latest
     needs: [backend, frontend]
     # Only push on real pushes (not PRs), and only when Docker Hub secrets exist
-    if: >
-      github.event_name == 'push' &&
-      secrets.DOCKERHUB_USERNAME != '' &&
-      secrets.DOCKERHUB_TOKEN != ''
+    if: github.event_name == 'push'
 
     steps:
       - name: Checkout
