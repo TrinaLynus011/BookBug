@@ -23,33 +23,34 @@ export default function App() {
   const [cartTitles, setCartTitles]   = useState(new Set());
   const [likedTitles, setLikedTitles] = useState(new Set());
 
-  const refreshHistory = useCallback(async (tok = token) => {
+  const refreshHistory = useCallback(async (tok) => {
     if (!tok) return;
     try {
       const data = await getHistory(tok);
       setHistory(data.history || []);
     } catch (err) { setError(err.message); }
-  }, [token]);
+  }, []);
 
-  const refreshStats = useCallback(async (tok = token, usr = user) => {
+  const refreshStats = useCallback(async (tok, usr) => {
     if (!tok || !usr) return;
     try {
       const data = await getDashboard(usr, tok);
       setStats(data.stats);
     } catch (err) { console.error('Stats fetch failed:', err); }
-  }, [token, user]);
+  }, []);
 
-  const refreshLikes = useCallback(async (tok = token) => {
+  const refreshLikes = useCallback(async (tok) => {
     if (!tok) return;
     try {
       const data = await getLikedBooks(tok);
       setLikedTitles(new Set((data.books || []).map((b) => b.title)));
     } catch (err) { console.error('Likes fetch failed:', err); }
-  }, [token]);
+  }, []);
 
-  const refreshAll = useCallback(async (tok = token, usr = user) => {
+  const refreshAll = useCallback(async (tok, usr) => {
+    if (!tok || !usr) return;
     await Promise.all([refreshHistory(tok), refreshStats(tok, usr), refreshLikes(tok)]);
-  }, [token, user, refreshHistory, refreshStats, refreshLikes]);
+  }, [refreshHistory, refreshStats, refreshLikes]);
 
   const handleReveal = async () => {
     setLoading(true);
@@ -60,7 +61,7 @@ export default function App() {
       setGenre(genreName);
       const recData = await getRecommendations(genreName, token);
       setBooks(recData.books || []);
-      await refreshAll();
+      await refreshAll(token, user);
     } catch (err) { setError(err.message); }
     finally { setLoading(false); }
   };
@@ -89,7 +90,7 @@ export default function App() {
         result.liked ? next.add(book.title) : next.delete(book.title);
         return next;
       });
-      await refreshStats();
+      await refreshStats(token, user);
     } catch (err) { setError(err.message); }
   };
 
@@ -139,7 +140,7 @@ export default function App() {
           <Cart
             cartBooks={cartBooks}
             onCartChange={handleCartChange}
-            onReadStateChange={() => refreshStats()}
+            onReadStateChange={() => refreshStats(token, user)}
           />
           <button onClick={handleLogout} className="btn-logout">Sign out</button>
         </div>
@@ -178,7 +179,12 @@ export default function App() {
         <strong>BookBug</strong> — Where every reader finds their next story.
       </footer>
 
-      <Assistant />
+      <Assistant context={{
+        genre:       genre || null,
+        book:        books[0]?.title || null,
+        likedGenres: stats?.favorite_genres || [],
+        feature:     null,
+      }} />
     </div>
   );
 }
