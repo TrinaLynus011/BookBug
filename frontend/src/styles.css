@@ -1127,3 +1127,131 @@ body {
   .hero-title { font-size: 1.8rem; }
   .book-shelf { grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); }
 }
+
+/* ══════════════════════════════════════════════════════════════════════════
+   EXPLAINABLE AI ASSISTANT  (floating chatbot)
+══════════════════════════════════════════════════════════════════════════ */
+.assistant-root {
+  position: fixed;
+  bottom: 1.75rem;
+  right: 1.75rem;
+  z-index: 10000;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 0.75rem;
+}
+
+/* ── Floating action button ──────────────────────────────────────────────── */
+.assistant-fab {
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  border: none;
+  background: var(--forest);
+  color: #fff;
+  font-size: 1.4rem;
+  cursor: pointer;
+  box-shadow: 0 4px 20px rgba(45, 90, 78, 0.4);
+  transition: transform 200ms ease, box-shadow 200ms ease, background 200ms;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.assistant-fab:hover {
+  background: #1e3d35;
+  transform: translateY(-3px);
+  box-shadow: 0 8px 28px rgba(45, 90, 78, 0.5);
+}
+
+/* ── Chat panel ──────────────────────────────────────────────────────────── */
+.assistant-panel {
+  width: 300px;
+  background: var(--panel-solid);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-lg);
+  overflow: hidden;
+  animation: fadeUp 200ms ease both;
+}
+
+.assistant-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.75rem 1rem;
+  background: var(--forest);
+  color: #fff;
+}
+
+.assistant-header-title {
+  font-family: var(--serif);
+  font-size: 0.95rem;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+}
+
+.assistant-close {
+  background: none;
+  border: none;
+  color: rgba(255, 255, 255, 0.75);
+  font-size: 0.9rem;
+  cursor: pointer;
+  padding: 0.1rem 0.3rem;
+  border-radius: 4px;
+  line-height: 1;
+  transition: color 150ms;
+}
+
+.assistant-close:hover { color: #fff; }
+
+.assistant-body {
+  padding: 1rem 1.1rem 0.75rem;
+  min-height: 80px;
+}
+
+.assistant-insight {
+  font-family: var(--body);
+  font-size: 0.88rem;
+  line-height: 1.65;
+  color: var(--ink-1);
+  margin: 0;
+}
+
+.assistant-loading {
+  font-family: var(--body);
+  font-style: italic;
+  font-size: 0.85rem;
+  color: var(--ink-2);
+  margin: 0;
+}
+
+.assistant-footer {
+  padding: 0.6rem 1.1rem 0.9rem;
+  border-top: 1px solid var(--border);
+}
+
+.assistant-another {
+  background: none;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  padding: 0.35rem 0.9rem;
+  font-family: var(--ui);
+  font-size: 0.78rem;
+  font-weight: 500;
+  color: var(--forest);
+  cursor: pointer;
+  transition: background 150ms, border-color 150ms;
+}
+
+.assistant-another:hover {
+  background: var(--forest-pale);
+  border-color: var(--forest-soft);
+}
+
+.assistant-another:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+}

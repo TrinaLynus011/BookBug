@@ -4,6 +4,7 @@ import HistoryList from './components/HistoryList';
 import UserStats from './components/UserStats';
 import Cart from './components/Cart';
 import Auth from './components/Auth';
+import Assistant from './components/Assistant';
 import {
   getGenre, getHistory, getRecommendations,
   getStoredToken, getStoredUsername, storeAuth, clearAuth,
@@ -176,6 +177,8 @@ export default function App() {
       <footer className="app-footer">
         <strong>BookBug</strong> — Where every reader finds their next story.
       </footer>
+
+      <Assistant />
     </div>
   );
 }

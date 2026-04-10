@@ -24,6 +24,7 @@ from .cart import (
     remove_from_cart,
 )
 from .database import close_mongo_connection, connect_to_mongo, get_collection, is_mongo_available
+from .explainable_ai import get_random_insight
 from .recommendation_engine import RecommendationEngine
 from .schemas import (
     Book,
@@ -196,6 +197,12 @@ def _extract_bearer_subject(authorization: str | None) -> str | None:
 def health() -> dict[str, str]:
     REQUEST_COUNT.labels(endpoint="health").inc()
     return {"status": "ok"}
+
+
+@app.get("/insight")
+def insight() -> dict[str, str]:
+    """Return a random Explainable AI insight about the platform."""
+    return {"insight": get_random_insight()}
 
 
 @app.get("/metrics")
