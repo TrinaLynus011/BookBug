@@ -1,4 +1,19 @@
 const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'http://localhost:8000';
+export const UNAUTHORIZED_EVENT = 'bookbee:unauthorized';
+
+function handleUnauthorized() {
+  clearAuth();
+  if (typeof window !== 'undefined') {
+    window.dispatchEvent(new Event(UNAUTHORIZED_EVENT));
+  }
+}
+
+function throwIfUnauthorized(response) {
+  if (response.status === 401) {
+    handleUnauthorized();
+    throw new Error('Session expired. Please sign in again.');
+  }
+}
 
 export async function getGenre(token = null) {
   const headers = token ? { Authorization: `Bearer ${token}` } : {};
@@ -57,6 +72,7 @@ export async function getDashboard(username, token) {
   const response = await fetch(`${API_BASE_URL}/dashboard/${username}`, {
     headers: { Authorization: `Bearer ${token}` },
   });
+  throwIfUnauthorized(response);
   if (!response.ok) {
     throw new Error('Failed to fetch dashboard');
   }
@@ -85,6 +101,7 @@ export async function getCart(token) {
   const response = await fetch(`${API_BASE_URL}/cart`, {
     headers: { Authorization: `Bearer ${token}` },
   });
+  throwIfUnauthorized(response);
   if (!response.ok) {
     throw new Error('Failed to fetch cart');
   }
@@ -100,6 +117,7 @@ export async function addToCart(book, token) {
     },
     body: JSON.stringify(book),
   });
+  throwIfUnauthorized(response);
   const data = await response.json();
   if (!response.ok) {
     throw new Error(data.detail || 'Failed to add to cart');
@@ -112,6 +130,7 @@ export async function removeFromCart(bookTitle, token) {
     method: 'DELETE',
     headers: { Authorization: `Bearer ${token}` },
   });
+  throwIfUnauthorized(response);
   const data = await response.json();
   if (!response.ok) {
     throw new Error(data.detail || 'Failed to remove from cart');
@@ -124,6 +143,7 @@ export async function clearCart(token) {
     method: 'DELETE',
     headers: { Authorization: `Bearer ${token}` },
   });
+  throwIfUnauthorized(response);
   const data = await response.json();
   if (!response.ok) {
     throw new Error(data.detail || 'Failed to clear cart');
@@ -135,6 +155,7 @@ export async function getReadBooks(token) {
   const response = await fetch(`${API_BASE_URL}/read`, {
     headers: { Authorization: `Bearer ${token}` },
   });
+  throwIfUnauthorized(response);
   if (!response.ok) {
     throw new Error('Failed to fetch read books');
   }
@@ -150,6 +171,7 @@ export async function markAsRead(book, token) {
     },
     body: JSON.stringify(book),
   });
+  throwIfUnauthorized(response);
   const data = await response.json();
   if (!response.ok) {
     throw new Error(data.detail || 'Failed to mark as read');
@@ -166,6 +188,7 @@ export async function toggleLike(book, token) {
     },
     body: JSON.stringify(book),
   });
+  throwIfUnauthorized(response);
   const data = await response.json();
   if (!response.ok) {
     throw new Error(data.detail || 'Failed to toggle like');
@@ -177,6 +200,7 @@ export async function getLikedBooks(token) {
   const response = await fetch(`${API_BASE_URL}/likes`, {
     headers: { Authorization: `Bearer ${token}` },
   });
+  throwIfUnauthorized(response);
   if (!response.ok) throw new Error('Failed to fetch liked books');
   return response.json();
 }

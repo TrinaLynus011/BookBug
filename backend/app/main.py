@@ -24,7 +24,7 @@ from .cart import (
     remove_from_cart,
 )
 from .database import close_mongo_connection, connect_to_mongo, get_collection, is_mongo_available
-from .explainable_ai import get_random_insight
+from .explainable_ai import get_personalized_insight
 from .recommendation_engine import RecommendationEngine
 from .schemas import (
     Book,
@@ -200,9 +200,22 @@ def health() -> dict[str, str]:
 
 
 @app.get("/insight")
-def insight() -> dict[str, str]:
-    """Return a random Explainable AI insight about the platform."""
-    return {"insight": get_random_insight()}
+def insight(
+    feature: str | None = None,
+    book: str | None = None,
+    genre: str | None = None,
+    liked_genres: str | None = None,   # comma-separated
+) -> dict[str, str]:
+    """Return a personalized Explainable AI insight based on user context."""
+    parsed_liked = [g.strip() for g in liked_genres.split(",")] if liked_genres else None
+    return {
+        "insight": get_personalized_insight(
+            feature=feature,
+            book_title=book,
+            liked_genres=parsed_liked,
+            current_genre=genre,
+        )
+    }
 
 
 @app.get("/metrics")

@@ -8,7 +8,7 @@ import Assistant from './components/Assistant';
 import {
   getGenre, getHistory, getRecommendations,
   getStoredToken, getStoredUsername, storeAuth, clearAuth,
-  addToCart, getDashboard, toggleLike, getLikedBooks,
+  addToCart, getDashboard, toggleLike, getLikedBooks, UNAUTHORIZED_EVENT,
 } from './api/client';
 
 export default function App() {
@@ -108,11 +108,15 @@ export default function App() {
     refreshAll(accessToken, username);
   };
 
-  const handleLogout = () => {
+  const resetSessionState = () => {
     clearAuth();
     setUser(null); setToken(null);
     setGenre(''); setBooks([]); setHistory([]);
     setStats(null); setCartTitles(new Set()); setLikedTitles(new Set()); setCartBooks([]);
+  };
+
+  const handleLogout = () => {
+    resetSessionState();
   };
 
   useEffect(() => {
@@ -123,6 +127,16 @@ export default function App() {
       setUser(storedUser);
       refreshAll(storedToken, storedUser);
     }
+  }, []);
+
+  useEffect(() => {
+    const onUnauthorized = () => {
+      setError('Session expired. Please sign in again.');
+      resetSessionState();
+    };
+
+    window.addEventListener(UNAUTHORIZED_EVENT, onUnauthorized);
+    return () => window.removeEventListener(UNAUTHORIZED_EVENT, onUnauthorized);
   }, []);
 
   if (!user && !token) return <Auth onAuth={handleAuth} />;

@@ -30,7 +30,6 @@ vi.mock('../api/client', () => ({
   login:  vi.fn().mockResolvedValue({ access_token: 'test-token' }),
   signup: vi.fn().mockResolvedValue({ message: 'User created successfully' }),
 }));
-
 test('shows auth screen when not logged in', () => {
   render(<App />);
   // App shows the Auth component when no token is stored
